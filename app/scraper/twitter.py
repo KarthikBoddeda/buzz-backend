@@ -198,20 +198,90 @@ class TwitterSearchAPI:
             "x-twitter-client-language": "en",
         }
     
-    def _build_query(self, query: str, since: Optional[str] = None, until: Optional[str] = None) -> str:
-        """Build the raw query string with date filters."""
+    def _build_query(
+        self, 
+        query: str, 
+        since: Optional[str] = None, 
+        until: Optional[str] = None,
+        since_time: Optional[int] = None,
+        until_time: Optional[int] = None
+    ) -> str:
+        """
+        Build the raw query string with date/time filters.
+        
+        Supports two modes:
+        1. Date-based: since/until in YYYY-MM-DD format (day granularity)
+        2. Timestamp-based: since_time/until_time as Unix timestamps (second granularity)
+        
+        Timestamp-based takes precedence if both are provided.
+        """
         raw_query = query
-        if until:
+        
+        # Use timestamp-based filtering if provided (higher precision)
+        if until_time is not None:
+            raw_query += f" until_time:{until_time}"
+        elif until:
             raw_query += f" until:{until}"
-        if since:
+        
+        if since_time is not None:
+            raw_query += f" since_time:{since_time}"
+        elif since:
             raw_query += f" since:{since}"
+        
         return raw_query
+    
+    @staticmethod
+    def parse_datetime(dt_str: str) -> tuple:
+        """
+        Parse a datetime string and return (date_str, unix_timestamp).
+        
+        Supports formats:
+        - YYYY-MM-DD (returns date only, no timestamp)
+        - YYYY-MM-DD HH:MM (returns timestamp)
+        - YYYY-MM-DD HH:MM:SS (returns timestamp)
+        - YYYY-MM-DDTHH:MM:SS (ISO format, returns timestamp)
+        
+        Returns:
+            Tuple of (date_str or None, unix_timestamp or None)
+        """
+        if not dt_str:
+            return None, None
+        
+        dt_str = dt_str.strip()
+        
+        # Try date-only format first
+        if len(dt_str) == 10:  # YYYY-MM-DD
+            try:
+                datetime.strptime(dt_str, "%Y-%m-%d")
+                return dt_str, None  # Return date string, no timestamp
+            except ValueError:
+                pass
+        
+        # Try datetime formats
+        formats = [
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d %H:%M",
+            "%Y-%m-%dT%H:%M:%S",
+            "%Y-%m-%dT%H:%M",
+        ]
+        
+        for fmt in formats:
+            try:
+                dt = datetime.strptime(dt_str, fmt)
+                timestamp = int(dt.timestamp())
+                return None, timestamp  # Return timestamp, no date string
+            except ValueError:
+                continue
+        
+        raise ValueError(f"Invalid datetime format: {dt_str}. Use YYYY-MM-DD or YYYY-MM-DD HH:MM:SS")
     
     def search(
         self,
         query: str,
         since: Optional[str] = None,
         until: Optional[str] = None,
+        since_time: Optional[int] = None,
+        until_time: Optional[int] = None,
         count: int = 20,
         product: str = "Latest",
         cursor: Optional[str] = None
@@ -221,8 +291,10 @@ class TwitterSearchAPI:
         
         Args:
             query: Search query text (e.g., "Razorpay")
-            since: Start date in YYYY-MM-DD format
-            until: End date in YYYY-MM-DD format
+            since: Start date in YYYY-MM-DD format (day granularity)
+            until: End date in YYYY-MM-DD format (day granularity)
+            since_time: Start time as Unix timestamp (second granularity)
+            until_time: End time as Unix timestamp (second granularity)
             count: Number of tweets to fetch (default 20)
             product: "Latest" or "Top" (default "Latest")
             cursor: Pagination cursor for fetching more results
@@ -230,7 +302,7 @@ class TwitterSearchAPI:
         Returns:
             Raw API response as dictionary
         """
-        raw_query = self._build_query(query, since, until)
+        raw_query = self._build_query(query, since, until, since_time, until_time)
         
         variables = {
             "rawQuery": raw_query,
@@ -264,6 +336,8 @@ class TwitterSearchAPI:
         query: str,
         since: Optional[str] = None,
         until: Optional[str] = None,
+        since_time: Optional[int] = None,
+        until_time: Optional[int] = None,
         max_tweets: int = 100,
         product: str = "Latest"
     ) -> list:
@@ -272,8 +346,10 @@ class TwitterSearchAPI:
         
         Args:
             query: Search query text
-            since: Start date in YYYY-MM-DD format
-            until: End date in YYYY-MM-DD format
+            since: Start date in YYYY-MM-DD format (day granularity)
+            until: End date in YYYY-MM-DD format (day granularity)
+            since_time: Start time as Unix timestamp (second granularity)
+            until_time: End time as Unix timestamp (second granularity)
             max_tweets: Maximum number of tweets to fetch
             product: "Latest" or "Top"
         
@@ -290,6 +366,8 @@ class TwitterSearchAPI:
                 query=query,
                 since=since,
                 until=until,
+                since_time=since_time,
+                until_time=until_time,
                 count=count,
                 product=product,
                 cursor=cursor
@@ -705,19 +783,22 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-    python fetch_tweets.py                                          # Uses defaults: Razorpay, 2025-03-03 to 2025-03-05, tweets.json
-    python fetch_tweets.py --query "#Bitcoin" --since 2025-01-01    # Custom query and date
-    python fetch_tweets.py --filter-type replies --count 50         # Only replies, 50 tweets
-    python fetch_tweets.py --conversation 1896968033681465598       # Fetch full conversation thread for a tweet
+    python twitter.py                                                    # Uses defaults
+    python twitter.py --query "#Bitcoin" --since 2025-01-01             # Day granularity
+    python twitter.py --since "2025-03-04 10:00" --until "2025-03-04 11:00"  # Hour granularity
+    python twitter.py --since "2025-03-04 10:30:00" --until "2025-03-04 10:45:00"  # Minute granularity
+    python twitter.py --conversation 1896968033681465598                # Fetch conversation thread
         """
     )
     
     # Search query with default
     parser.add_argument("--query", "-q", default="Razorpay", help="Search query (default: 'Razorpay')")
     
-    # Date filters with defaults
-    parser.add_argument("--since", "-s", default="2025-03-03", help="Start date (default: 2025-03-03)")
-    parser.add_argument("--until", "-u", default="2025-03-05", help="End date (default: 2025-03-05)")
+    # Date/time filters with defaults (supports both date and datetime)
+    parser.add_argument("--since", "-s", default="2025-03-03", 
+                        help="Start date/time. Formats: YYYY-MM-DD (day) or 'YYYY-MM-DD HH:MM:SS' (hour/minute)")
+    parser.add_argument("--until", "-u", default="2025-03-05", 
+                        help="End date/time. Formats: YYYY-MM-DD (day) or 'YYYY-MM-DD HH:MM:SS' (hour/minute)")
     
     # Options
     parser.add_argument("--count", "-c", type=int, default=20, help="Number of tweets to fetch (default: 20)")
@@ -738,13 +819,17 @@ Examples:
     
     args = parser.parse_args()
     
-    # Validate dates if provided
-    for date_arg, date_name in [(args.since, "since"), (args.until, "until")]:
-        if date_arg:
-            try:
-                datetime.strptime(date_arg, "%Y-%m-%d")
-            except ValueError:
-                parser.error(f"Invalid {date_name} date format. Use YYYY-MM-DD")
+    # Parse date/time arguments
+    since_date, since_time = None, None
+    until_date, until_time = None, None
+    
+    try:
+        if args.since:
+            since_date, since_time = TwitterSearchAPI.parse_datetime(args.since)
+        if args.until:
+            until_date, until_time = TwitterSearchAPI.parse_datetime(args.until)
+    except ValueError as e:
+        parser.error(str(e))
     
     # Initialize API client
     api = TwitterSearchAPI(
@@ -771,26 +856,34 @@ Examples:
         # Mode 2: Search for tweets
         else:
             print(f"Searching for: {args.query}")
-            if args.since:
-                print(f"Since: {args.since}")
-            if args.until:
-                print(f"Until: {args.until}")
+            if since_time:
+                print(f"Since: {args.since} (timestamp: {since_time})")
+            elif since_date:
+                print(f"Since: {since_date}")
+            if until_time:
+                print(f"Until: {args.until} (timestamp: {until_time})")
+            elif until_date:
+                print(f"Until: {until_date}")
             print(f"Count: {args.count}")
             print()
             
             if args.paginate:
                 tweets = api.search_all(
                     query=args.query,
-                    since=args.since,
-                    until=args.until,
+                    since=since_date,
+                    until=until_date,
+                    since_time=since_time,
+                    until_time=until_time,
                     max_tweets=args.count,
                     product=args.product
                 )
             else:
                 response = api.search(
                     query=args.query,
-                    since=args.since,
-                    until=args.until,
+                    since=since_date,
+                    until=until_date,
+                    since_time=since_time,
+                    until_time=until_time,
                     count=args.count,
                     product=args.product
                 )
