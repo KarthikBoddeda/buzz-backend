@@ -1,0 +1,16 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Output files (regeneratable)
+analysis_results.json
+
+# OS
+.DS_Store
+
