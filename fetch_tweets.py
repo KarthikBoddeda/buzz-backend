@@ -489,12 +489,20 @@ def save_to_csv(tweets: list, filename: str):
 
 def print_tweets(tweets: list, limit: int = 10):
     """Print tweet summary to console."""
+    # Count posts vs replies
+    posts_count = sum(1 for t in tweets if not t.get("is_reply", False))
+    replies_count = sum(1 for t in tweets if t.get("is_reply", False))
+    
     print(f"\n{'='*80}")
-    print(f"Found {len(tweets)} tweets")
+    print(f"Found {len(tweets)} tweets ({posts_count} original posts, {replies_count} replies)")
     print(f"{'='*80}\n")
     
     for i, tweet in enumerate(tweets[:limit]):
-        print(f"[{i+1}] @{tweet['user']['screen_name']} ({tweet['user']['name']})")
+        tweet_type = "↩️ REPLY" if tweet.get("is_reply") else "📝 POST"
+        reply_info = f" to @{tweet.get('in_reply_to_user')}" if tweet.get("is_reply") else ""
+        
+        print(f"[{i+1}] {tweet_type}{reply_info}")
+        print(f"    @{tweet['user']['screen_name']} ({tweet['user']['name']})")
         print(f"    Followers: {tweet['user']['followers_count']:,}")
         print(f"    Created: {tweet['created_at']}")
         print(f"    Text: {tweet['full_text'][:200]}{'...' if len(tweet['full_text']) > 200 else ''}")
@@ -530,6 +538,8 @@ Examples:
     parser.add_argument("--product", "-p", choices=["Latest", "Top"], default="Latest", help="Search product type (default: Latest)")
     parser.add_argument("--output", "-o", help="Output file path (supports .json or .csv)")
     parser.add_argument("--paginate", action="store_true", help="Fetch all tweets with pagination (up to --count)")
+    parser.add_argument("--filter-type", "-f", choices=["all", "posts", "replies"], default="all", 
+                        help="Filter by tweet type: 'all' (default), 'posts' (original only), 'replies' (replies only)")
     
     # Authentication (should be set as environment variables or config file in production)
     parser.add_argument("--auth-token", default=os.environ.get("TWITTER_AUTH_TOKEN", "318969313bcce70b4ce79ee0f2bd9894284b678c"))
@@ -579,6 +589,14 @@ Examples:
                 product=args.product
             )
             tweets, _ = api.parse_response(response)
+        
+        # Filter by tweet type if specified
+        if args.filter_type == "posts":
+            tweets = [t for t in tweets if not t.get("is_reply", False)]
+            print(f"Filtered to original posts only")
+        elif args.filter_type == "replies":
+            tweets = [t for t in tweets if t.get("is_reply", False)]
+            print(f"Filtered to replies only")
         
         # Print summary
         print_tweets(tweets)
