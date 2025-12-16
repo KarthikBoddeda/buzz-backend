@@ -1,0 +1,615 @@
+{
+  "generated_at": "2025-12-16T23:19:27.471127",
+  "total_tweets": 19,
+  "successful_analyses": 19,
+  "failed_analyses": 0,
+  "results": [
+    {
+      "tweet_id": "1897004569202450945",
+      "tweet_url": "https://x.com/maniratanprata/status/1897004569202450945",
+      "created_at": "Tue Mar 04 19:21:48 +0000 2025",
+      "full_text": "@RazorpayCare Request Team @Razorpay  To Acknowledge This Issue From Their End &amp; Provide Request No / Reference No Regarding The Same .To Provide Either Full Refund Or Delivery Of Good To Us And Also To Provide Expected Time Till When Our Issue Will Be Resolved. Shared Same Via DM Please Reply",
+      "user": {
+        "name": "Mani Ratan Pratap Singh",
+        "screen_name": "maniratanprata",
+        "followers_count": 7,
+        "is_verified": false
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": "Disputes",
+        "sentiment_score": 3,
+        "urgency_score": 9,
+        "impact_score": 8,
+        "summary": "User requests Razorpay to acknowledge and resolve an issue involving a failed transaction or non-delivery, asking for refund or delivery and a reference number.",
+        "key_issues": [
+          "refund request",
+          "non-delivery of goods",
+          "lack of acknowledgment",
+          "delayed response from support"
+        ],
+        "suggested_action": "Respond promptly via DM with a reference number, investigate the transaction, and provide a clear resolution timeline or initiate refund if applicable."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896999334190748042",
+      "tweet_url": "https://x.com/thenewsminute/status/1896999334190748042",
+      "created_at": "Tue Mar 04 19:01:00 +0000 2025",
+      "full_text": "No filters, no fluff!  \n\nAt TNM, we are committed to telling you the truth because you deserve news that is raw and reliable. \n\nScan the QR to support a newsroom that will always serve its audience and not those in power. https://t.co/6ZOluhmwvT https://t.co/bUqxKLdmCF",
+      "user": {
+        "name": "TheNewsMinute",
+        "screen_name": "thenewsminute",
+        "followers_count": 232831,
+        "is_verified": true
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlJDCT4XMAAaInS.jpg",
+      "analysis": {
+        "is_spam": true,
+        "spam_reason": "The tweet promotes The News Minute and includes a QR code for donations or support, without any mention of Razorpay. It is unrelated promotional content.",
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 8,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Promotional tweet from The News Minute encouraging users to support their newsroom via QR code.",
+        "key_issues": [
+          "Unrelated promotional content",
+          "QR code for donations"
+        ],
+        "suggested_action": "No action needed; tweet is unrelated to Razorpay and can be ignored for analysis."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896991377113981187",
+      "tweet_url": "https://x.com/ImAyanTalukdar/status/1896991377113981187",
+      "created_at": "Tue Mar 04 18:29:23 +0000 2025",
+      "full_text": "Day 7\nLooking for a data scientist role in India! Experienced in [your key skills, e.g., ML, NLP, Python, SQL. Open to opportunities in fintech, AI, and analytics.\n@TCS @Wipro @PayPal @Infosys @Razorpay @ZeptoNow @Flipkart @CRED_club  @SwiggyTech\n#DataScience #Hiring #jobsearch",
+      "user": {
+        "name": "Ayan Talukdar",
+        "screen_name": "ImAyanTalukdar",
+        "followers_count": 137,
+        "is_verified": false
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a generic job-seeking post tagging multiple companies, including Razorpay, without any specific mention or context related to Razorpay’s products or services.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "A job seeker is looking for data science roles and tags Razorpay along with other companies.",
+        "key_issues": [
+          "Job search",
+          "Irrelevant mention of Razorpay"
+        ],
+        "suggested_action": "No action needed; ignore as it’s a general job-seeking tweet not related to Razorpay’s business or services."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896986500073709639",
+      "tweet_url": "https://x.com/scroll_in/status/1896986500073709639",
+      "created_at": "Tue Mar 04 18:10:00 +0000 2025",
+      "full_text": "The future of millions of young Indians is at risk as India’s higher education system faces an unprecedented crisis.\n\nJohanna Deeksha is investigating irregularities in crucial exams held in the country.\n\nBut we need your support.\n\nPlease contribute: https://t.co/u8BRQVojCY https://t.co/pcouejPMMw",
+      "user": {
+        "name": "Scroll.in",
+        "screen_name": "scroll_in",
+        "followers_count": 470453,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlM71RvXYAALgh1.jpg",
+      "analysis": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a fundraising appeal unrelated to Razorpay, promoting a project about education irregularities and asking for contributions.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 3,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Fundraising tweet about a crisis in India's education system, requesting support for an investigative project.",
+        "key_issues": [
+          "Education crisis",
+          "Fundraising appeal",
+          "Irregularities in exams"
+        ],
+        "suggested_action": "No action needed; tweet is unrelated to Razorpay and appears to be a general fundraising campaign."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896978565029355947",
+      "tweet_url": "https://x.com/veeradutta_engg/status/1896978565029355947",
+      "created_at": "Tue Mar 04 17:38:28 +0000 2025",
+      "full_text": "@adityakabra @ICICIBank @Razorpay It's true. In fact I didn't understand why there is a compulsion of the Current Account only. If there are one or two transactions monthly.",
+      "user": {
+        "name": "Prasad Pujari",
+        "screen_name": "veeradutta_engg",
+        "followers_count": 116,
+        "is_verified": false
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Complaint",
+        "product": "Razorpay X",
+        "sentiment_score": 4,
+        "urgency_score": 5,
+        "impact_score": 6,
+        "summary": "User questions the requirement of having a current account with Razorpay for limited transactions.",
+        "key_issues": [
+          "Current account requirement",
+          "Low transaction volume",
+          "User confusion about policy"
+        ],
+        "suggested_action": "Clarify the necessity of current account linkage for Razorpay X users and communicate eligibility or alternatives for low-volume users."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896973641197477919",
+      "tweet_url": "https://x.com/StaThameem/status/1896973641197477919",
+      "created_at": "Tue Mar 04 17:18:54 +0000 2025",
+      "full_text": "@AnanyaArya20 @Razorpay Same thing. Let's see...",
+      "user": {
+        "name": "தமீம் தமிழ்",
+        "screen_name": "StaThameem",
+        "followers_count": 3735,
+        "is_verified": false
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": null,
+        "sentiment_score": 3,
+        "urgency_score": 6,
+        "impact_score": 5,
+        "summary": "User indicates they are facing the same issue as another user with Razorpay and are waiting to see what happens.",
+        "key_issues": [
+          "Possible technical issue",
+          "Unresolved problem",
+          "User uncertainty"
+        ],
+        "suggested_action": "Monitor the conversation thread to identify the underlying issue and proactively reach out to the user for details to assist in resolution."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896968033681465598",
+      "tweet_url": "https://x.com/arorasmohan/status/1896968033681465598",
+      "created_at": "Tue Mar 04 16:56:37 +0000 2025",
+      "full_text": "@Razorpay @AnmolJaggi This the proof BluSmart had sent for transfer of money to me. Why are you keeping it for 17 days. Contact me on surendra.m.arora@gmail.com https://t.co/8PrzxWqpbZ",
+      "user": {
+        "name": "Surendra Mohan Arora",
+        "screen_name": "arorasmohan",
+        "followers_count": 10,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlNiX5eWsAA9g_S.jpg",
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": "Disputes",
+        "sentiment_score": 2,
+        "urgency_score": 8,
+        "impact_score": 7,
+        "summary": "User complains that a refund of ₹2,000 from BluSmart via Razorpay has been pending for 17 days despite proof of transfer.",
+        "key_issues": [
+          "Delayed refund",
+          "Payment not received",
+          "Refund processing stuck",
+          "Customer frustration"
+        ],
+        "suggested_action": "Razorpay support should immediately verify the refund status using the provided refund ID, check if funds were settled to the user's account, and communicate resolution or next steps directly to the user."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896967130501042356",
+      "tweet_url": "https://x.com/arorasmohan/status/1896967130501042356",
+      "created_at": "Tue Mar 04 16:53:02 +0000 2025",
+      "full_text": "@Razorpay @AnmolJaggi  pl see what BluSmart is saying. They say you are keeping my money https://t.co/Ida5uupOLa",
+      "user": {
+        "name": "Surendra Mohan Arora",
+        "screen_name": "arorasmohan",
+        "followers_count": 10,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlNhjU_WYAAg7oH.jpg",
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": "Disputes",
+        "sentiment_score": 2,
+        "urgency_score": 9,
+        "impact_score": 8,
+        "summary": "User claims Razorpay is holding their refund, referencing BluSmart’s email confirming payment gateway delay.",
+        "key_issues": [
+          "Refund not received",
+          "Payment gateway delay",
+          "Funds stuck",
+          "BluSmart blaming Razorpay"
+        ],
+        "suggested_action": "Razorpay should urgently investigate the refund transaction, verify settlement status with BluSmart, and communicate directly with the user to resolve the issue and clarify responsibility."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896965846758777060",
+      "tweet_url": "https://x.com/StaThameem/status/1896965846758777060",
+      "created_at": "Tue Mar 04 16:47:56 +0000 2025",
+      "full_text": "@AnanyaArya20 @Razorpay Got the refund?\nAny updates?",
+      "user": {
+        "name": "தமீம் தமிழ்",
+        "screen_name": "StaThameem",
+        "followers_count": 3735,
+        "is_verified": false
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": "Disputes",
+        "sentiment_score": 4,
+        "urgency_score": 7,
+        "impact_score": 6,
+        "summary": "User is asking about the status of a refund from Razorpay, indicating a possible unresolved payment issue.",
+        "key_issues": [
+          "refund delay",
+          "payment issue",
+          "status update request"
+        ],
+        "suggested_action": "Check the refund status for the mentioned user and provide a timely update or resolution."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896964835075903760",
+      "tweet_url": "https://x.com/StaThameem/status/1896964835075903760",
+      "created_at": "Tue Mar 04 16:43:55 +0000 2025",
+      "full_text": "Hi @IRCTCofficial and @IDFCFIRSTBank \n\nI received these mail and sms today mentioning that the refund has been processed by yesterday night itself. \nBut still I haven't received the refund yet.\n\n#IDFC #IRCTC #IndianRailways #railmadad #razorpay #eticket #Refund https://t.co/YUlgoQu8xS",
+      "user": {
+        "name": "தமீம் தமிழ்",
+        "screen_name": "StaThameem",
+        "followers_count": 3735,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlNfJx4WAAAO63n.jpg",
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": "Disputes",
+        "sentiment_score": 3,
+        "urgency_score": 8,
+        "impact_score": 7,
+        "summary": "User reports that a refund processed via Razorpay for an IRCTC ticket has not yet been credited to their account.",
+        "key_issues": [
+          "Refund not received",
+          "Payment gateway processed but not credited",
+          "Coordination issue between Razorpay and bank"
+        ],
+        "suggested_action": "Razorpay should verify the refund transaction status using the provided RRN and ARN, confirm if funds were successfully transferred to the bank, and assist the user in coordinating with the issuing bank to trace the pending refund."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896964477360480625",
+      "tweet_url": "https://x.com/arorasmohan/status/1896964477360480625",
+      "created_at": "Tue Mar 04 16:42:29 +0000 2025",
+      "full_text": "@AnmolJaggi No progress in my refund case despite repeated assurances from Shariat and Rahul. The blame is being put on payment gateway @Razorpay but I am surprised you can't handle them despite giving them massive business. How long can you grow if can't resolve a tiny issue. Very sad.",
+      "user": {
+        "name": "Surendra Mohan Arora",
+        "screen_name": "arorasmohan",
+        "followers_count": 10,
+        "is_verified": false
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Complaint",
+        "product": "Disputes",
+        "sentiment_score": 2,
+        "urgency_score": 8,
+        "impact_score": 7,
+        "summary": "User expresses frustration over an unresolved refund issue being blamed on Razorpay.",
+        "key_issues": [
+          "refund delay",
+          "poor issue resolution",
+          "payment gateway blamed",
+          "customer dissatisfaction"
+        ],
+        "suggested_action": "Investigate the refund case immediately, coordinate with the merchant and Razorpay support team to resolve the dispute, and communicate a clear update to the affected user."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896954497278394572",
+      "tweet_url": "https://x.com/ForbesCY_FOFS/status/1896954497278394572",
+      "created_at": "Tue Mar 04 16:02:50 +0000 2025",
+      "full_text": "🚀 Top 10 Global Fintech Cities in 2024!\n\n1️⃣ San Francisco (Stripe, Robinhood)\n2️⃣ New York (Plaid, Betterment)\n3️⃣ London (Revolut, Wise)\n4️⃣ São Paulo (Nubank, open banking leader)\n5️⃣ Bangalore (Razorpay, digital payments hub)\n\nRead more: https://t.co/cjNWnaCc4w https://t.co/MuIbpHRzaj",
+      "user": {
+        "name": "Forbes Cyprus The Future of Fintech Summit",
+        "screen_name": "ForbesCY_FOFS",
+        "followers_count": 57,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlNWDZFW8AAf97F.png",
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 7,
+        "summary": "Tweet highlights Bangalore as a top global fintech city in 2024, mentioning Razorpay as a key player.",
+        "key_issues": [
+          "Positive recognition",
+          "Fintech innovation",
+          "Global ranking"
+        ],
+        "suggested_action": "Engage with the post by thanking or amplifying the recognition to boost brand visibility in the global fintech context."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896950009850900520",
+      "tweet_url": "https://x.com/scroll_in/status/1896950009850900520",
+      "created_at": "Tue Mar 04 15:45:00 +0000 2025",
+      "full_text": "The future of millions of young Indians is at risk as India’s higher education system faces an unprecedented crisis.\n\nJohanna Deeksha is investigating irregularities in crucial exams held in the country.\n\nBut we need your support.\n\nConsider contributing: https://t.co/u8BRQVnLNq https://t.co/nQfQDTHck9",
+      "user": {
+        "name": "Scroll.in",
+        "screen_name": "scroll_in",
+        "followers_count": 470453,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlM6Ls7WAAA380S.jpg",
+      "analysis": {
+        "is_spam": true,
+        "spam_reason": "The tweet is unrelated to Razorpay and is a fundraising appeal for an education-related investigative project, not a genuine mention or discussion of Razorpay.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 3,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Fundraising tweet about an investigation into irregularities in India's education system.",
+        "key_issues": [
+          "Education crisis",
+          "Fundraising appeal",
+          "Irregularities in exams"
+        ],
+        "suggested_action": "No action needed; tweet is unrelated to Razorpay and appears to be promotional content."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896947210899825005",
+      "tweet_url": "https://x.com/thenewsminute/status/1896947210899825005",
+      "created_at": "Tue Mar 04 15:33:53 +0000 2025",
+      "full_text": "🎉 TNM turns 11, and we’re celebrating with a Buy 1, Gift 1 Subscription!\n\nSubscribe to TNM-NL and gift a friend or family member a year of independent journalism—because good news deserves to be shared.\n\nJoin the movement:https://t.co/6ZOluhn4lr",
+      "user": {
+        "name": "TheNewsMinute",
+        "screen_name": "thenewsminute",
+        "followers_count": 232831,
+        "is_verified": true
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a promotional post for TNM subscriptions and does not mention Razorpay or relate to its products or services.",
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Promotional tweet about TNM's subscription offer, unrelated to Razorpay.",
+        "key_issues": [
+          "Irrelevant content",
+          "Promotional material"
+        ],
+        "suggested_action": "No action needed; tweet is unrelated to Razorpay."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896928128221794365",
+      "tweet_url": "https://x.com/RazorpayCare/status/1896928128221794365",
+      "created_at": "Tue Mar 04 14:18:03 +0000 2025",
+      "full_text": "@gupta_shubham0 Hi Shubham, we are here with you over a DM. Regards, Team Razorpay",
+      "user": {
+        "name": "Razorpay Care",
+        "screen_name": "RazorpayCare",
+        "followers_count": 4586,
+        "is_verified": true
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Support",
+        "product": "Support",
+        "sentiment_score": 5,
+        "urgency_score": 3,
+        "impact_score": 2,
+        "summary": "Razorpay responds to a user via DM indicating ongoing support assistance.",
+        "key_issues": [
+          "Customer support interaction",
+          "Private message follow-up"
+        ],
+        "suggested_action": "Ensure the support team continues assisting the user privately and resolves their issue promptly."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896922814114041934",
+      "tweet_url": "https://x.com/scroll_in/status/1896922814114041934",
+      "created_at": "Tue Mar 04 13:56:56 +0000 2025",
+      "full_text": "The future of millions of young Indians is at risk as India’s higher education system faces an unprecedented crisis.\n\nJohanna Deeksha is investigating irregularities in crucial exams held in the country.\n\nBut we need your support.\n\nConsider contributing: https://t.co/u8BRQVojCY https://t.co/kCCZY1nx6e",
+      "user": {
+        "name": "Scroll.in",
+        "screen_name": "scroll_in",
+        "followers_count": 470453,
+        "is_verified": false
+      },
+      "has_image": true,
+      "image_url": "https://pbs.twimg.com/media/GlM5OoMWwAALhRP.jpg",
+      "analysis": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a fundraising or promotional post unrelated to Razorpay, asking users to contribute to an external project about education in India.",
+        "category": null,
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Fundraising tweet about a project investigating irregularities in India's education system.",
+        "key_issues": [
+          "fundraising",
+          "education crisis",
+          "exam irregularities"
+        ],
+        "suggested_action": "No action needed; tweet is unrelated to Razorpay."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896920855680360521",
+      "tweet_url": "https://x.com/megabored/status/1896920855680360521",
+      "created_at": "Tue Mar 04 13:49:09 +0000 2025",
+      "full_text": "Razorpay is genuinely the Stripe of India. But that does not giving them enough credit.\n\nEven if their dashboard is slow, the tiny features in their products are so well thought out (e.g., autofill links for payment pages). \n\nOthers aren't even playing catch-up at this point.",
+      "user": {
+        "name": "Mani",
+        "screen_name": "megabored",
+        "followers_count": 881,
+        "is_verified": true
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Pages",
+        "sentiment_score": 9,
+        "urgency_score": 3,
+        "impact_score": 7,
+        "summary": "User praises Razorpay for its thoughtful product design and compares it favorably to Stripe, noting minor dashboard slowness.",
+        "key_issues": [
+          "Dashboard performance",
+          "Product design appreciation",
+          "Payment Pages autofill feature"
+        ],
+        "suggested_action": "Acknowledge the positive feedback publicly and consider optimizing dashboard performance to enhance user experience."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896919085767938197",
+      "tweet_url": "https://x.com/RazorpayCare/status/1896919085767938197",
+      "created_at": "Tue Mar 04 13:42:07 +0000 2025",
+      "full_text": "@Advsaifalam Hi Saif, we sincerely apologize for the issues you’ve encountered. Please send us a DM with your Merchant ID or contact number and brief of your concern, and we’ll get to the bottom of this as quickly as possible! Regard, Team Razorpay https://t.co/K5EfXqMykd",
+      "user": {
+        "name": "Razorpay Care",
+        "screen_name": "RazorpayCare",
+        "followers_count": 4586,
+        "is_verified": true
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Experience Breakage",
+        "product": "Support",
+        "sentiment_score": 4,
+        "urgency_score": 7,
+        "impact_score": 6,
+        "summary": "Razorpay responds to a user apologizing for issues and requests details via DM to resolve the problem.",
+        "key_issues": [
+          "User reported issues",
+          "Support follow-up",
+          "Merchant account concern"
+        ],
+        "suggested_action": "Ensure the support team follows up promptly with the user to resolve their issue and document the resolution for quality tracking."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    },
+    {
+      "tweet_id": "1896910513252323822",
+      "tweet_url": "https://x.com/shbhtngpl/status/1896910513252323822",
+      "created_at": "Tue Mar 04 13:08:03 +0000 2025",
+      "full_text": "@AshTheBuilderr if you're in india, maybe razorpay. otherwise, checkout lemonsqueezy",
+      "user": {
+        "name": "shobhit",
+        "screen_name": "shbhtngpl",
+        "followers_count": 832,
+        "is_verified": true
+      },
+      "has_image": false,
+      "image_url": null,
+      "analysis": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 7,
+        "urgency_score": 1,
+        "impact_score": 3,
+        "summary": "User recommends Razorpay as a good payment option for users in India.",
+        "key_issues": [
+          "recommendation",
+          "comparison with another payment platform"
+        ],
+        "suggested_action": "Engage positively by thanking the user for recommending Razorpay and highlighting its India-specific advantages."
+      },
+      "analysis_success": true,
+      "analysis_error": null
+    }
+  ]
+}
