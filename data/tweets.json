@@ -1,0 +1,221 @@
+{
+  "main_tweet": {
+    "id": "2000816041577111730",
+    "created_at": "Tue Dec 16 06:31:32 +0000 2025",
+    "full_text": "Hi @Razorpay Filed a chargeback, I recently placed an order from https://t.co/UnQwuw3fqJ and they use your gateway. Hasn’t issued any refund and the product was returned as well. Unable to contact merchant by any means, disabled contact support. I use fi money @FederalBankLtd https://t.co/133pMatqiP",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 59,
+    "user": {
+      "id": "1745183384073314304",
+      "name": "Amaan Khan",
+      "screen_name": "_imamaan",
+      "followers_count": 0,
+      "following_count": 0,
+      "is_verified": false,
+      "profile_image_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+      "description": ""
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2000816041577111730",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "FederalBankLtd",
+        "name": "Federal Bank Ltd",
+        "id": "391171875"
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/UnQwuw3fqJ",
+        "expanded_url": "http://basiccovers.in",
+        "display_url": "basiccovers.in"
+      }
+    ],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8RTj3dacAAEpQz.jpg",
+        "expanded_url": "https://x.com/_imamaan/status/2000816041577111730/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8RTj3XaoAAHUof.jpg",
+        "expanded_url": "https://x.com/_imamaan/status/2000816041577111730/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8RTj3Wa4AAm9-O.jpg",
+        "expanded_url": "https://x.com/_imamaan/status/2000816041577111730/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8RTj1iagAAG8CJ.jpg",
+        "expanded_url": "https://x.com/_imamaan/status/2000816041577111730/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/_imamaan/status/2000816041577111730"
+  },
+  "replies": [
+    {
+      "id": "2000829016316817814",
+      "created_at": "Tue Dec 16 07:23:05 +0000 2025",
+      "full_text": "@_imamaan Hi Amaan, we understand how important it is for you to receive clarity on your chargeback and refund, especially after returning the product. We’re here to help and ensure this is checked properly. To assist you further, please share a screenshot of the debit transaction showing",
+      "language": "en",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "view_count": 16,
+      "user": {
+        "id": "807158172305625088",
+        "name": "Razorpay Care",
+        "screen_name": "RazorpayCare",
+        "followers_count": 4586,
+        "following_count": 2,
+        "is_verified": true,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/911111218940616705/8A3c7lFO_normal.jpg",
+        "description": "This is the Twitter handle for @Razorpay Support. For a quick resolution please raise a request here: https://t.co/kNmRzkT3xk"
+      },
+      "is_reply": true,
+      "in_reply_to_tweet_id": "2000816041577111730",
+      "in_reply_to_user": "_imamaan",
+      "is_quote": false,
+      "conversation_id": "2000816041577111730",
+      "hashtags": [],
+      "mentions": [
+        {
+          "screen_name": "_imamaan",
+          "name": "Amaan Khan",
+          "id": "1745183384073314304"
+        }
+      ],
+      "urls": [],
+      "media": [],
+      "tweet_url": "https://x.com/RazorpayCare/status/2000829016316817814"
+    },
+    {
+      "id": "2000978646409076856",
+      "created_at": "Tue Dec 16 17:17:40 +0000 2025",
+      "full_text": "@RazorpayCare Thank you. Please note I’m aware razorpay doesn’t onboard MERCHANTS without a refund/return policy. IDEK why this MERCHANT is the opposite. Doesn’t respond at all!",
+      "language": "en",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "view_count": 7,
+      "user": {
+        "id": "1745183384073314304",
+        "name": "Amaan Khan",
+        "screen_name": "_imamaan",
+        "followers_count": 0,
+        "following_count": 0,
+        "is_verified": false,
+        "profile_image_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "description": ""
+      },
+      "is_reply": true,
+      "in_reply_to_tweet_id": "2000829016316817814",
+      "in_reply_to_user": "RazorpayCare",
+      "is_quote": false,
+      "conversation_id": "2000816041577111730",
+      "hashtags": [],
+      "mentions": [
+        {
+          "screen_name": "RazorpayCare",
+          "name": "Razorpay Care",
+          "id": "807158172305625088"
+        }
+      ],
+      "urls": [],
+      "media": [],
+      "tweet_url": "https://x.com/_imamaan/status/2000978646409076856"
+    },
+    {
+      "id": "2000816630486749617",
+      "created_at": "Tue Dec 16 06:33:52 +0000 2025",
+      "full_text": "@_imamaan Hi Amaan,\n\nWe sincerely apologize for any inconvenience caused. To assist you more effectively, please send us a direct message. Our team will promptly review your issue and ensure you receive the support you need.\n\n- Merin",
+      "language": "en",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "view_count": 27,
+      "user": {
+        "id": "391171875",
+        "name": "Federal Bank Ltd",
+        "screen_name": "FederalBankLtd",
+        "followers_count": 79776,
+        "following_count": 10,
+        "is_verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1383092873520816129/bSk9I8CF_normal.jpg",
+        "description": "A leading Indian Private Sector Bank, offering a wide range of products & services. For queries, tag @FederalBankHelp \n\nDo not share any confidential info here"
+      },
+      "is_reply": true,
+      "in_reply_to_tweet_id": "2000816041577111730",
+      "in_reply_to_user": "_imamaan",
+      "is_quote": false,
+      "conversation_id": "2000816041577111730",
+      "hashtags": [],
+      "mentions": [
+        {
+          "screen_name": "_imamaan",
+          "name": "Amaan Khan",
+          "id": "1745183384073314304"
+        }
+      ],
+      "urls": [],
+      "media": [],
+      "tweet_url": "https://x.com/FederalBankLtd/status/2000816630486749617"
+    },
+    {
+      "id": "1993563438073909558",
+      "created_at": "Wed Nov 26 06:12:16 +0000 2025",
+      "full_text": "AMD-Powered Supermicro Servers on VULTR\n\nUnlock HPC for life sciences with flexible cloud infrastructure and enterprise-grade reliability.",
+      "language": "en",
+      "favorite_count": 874,
+      "retweet_count": 66,
+      "reply_count": 18,
+      "quote_count": 3,
+      "bookmark_count": 202,
+      "view_count": 18180539,
+      "user": {
+        "id": "374598930",
+        "name": "Supermicro",
+        "screen_name": "Supermicro",
+        "followers_count": 67222,
+        "following_count": 1959,
+        "is_verified": true,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1236093304665591809/iVFx-Tc5_normal.jpg",
+        "description": "Supermicro® (NASDAQ:SMCI), 30+ years of leadership in Enterprise, cloud, AI, and 5G Telco/Edge Infrastructure solutions."
+      },
+      "is_reply": false,
+      "in_reply_to_tweet_id": null,
+      "in_reply_to_user": null,
+      "is_quote": false,
+      "conversation_id": "1993563438073909558",
+      "hashtags": [],
+      "mentions": [],
+      "urls": [],
+      "media": [],
+      "tweet_url": "https://x.com/Supermicro/status/1993563438073909558"
+    }
+  ],
+  "conversation_id": "2000816041577111730"
+}

@@ -1,0 +1,136 @@
+{
+  "main_tweet": {
+    "id": "1896968033681465598",
+    "created_at": "Tue Mar 04 16:56:37 +0000 2025",
+    "full_text": "@Razorpay @AnmolJaggi This the proof BluSmart had sent for transfer of money to me. Why are you keeping it for 17 days. Contact me on surendra.m.arora@gmail.com https://t.co/8PrzxWqpbZ",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 41,
+    "user": {
+      "id": "895667473650864129",
+      "name": "Surendra Mohan Arora",
+      "screen_name": "arorasmohan",
+      "followers_count": 10,
+      "following_count": 26,
+      "is_verified": false,
+      "profile_image_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+      "description": ""
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": "Razorpay",
+    "is_quote": false,
+    "conversation_id": "1896968033681465598",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "AnmolJaggi",
+        "name": "Anmol Singh Jaggi",
+        "id": "44919886"
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GlNiX5eWsAA9g_S.jpg",
+        "expanded_url": "https://x.com/arorasmohan/status/1896968033681465598/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/arorasmohan/status/1896968033681465598"
+  },
+  "replies": [
+    {
+      "id": "1897228853812277722",
+      "created_at": "Wed Mar 05 10:13:02 +0000 2025",
+      "full_text": "@arorasmohan Hi Surendra, we are here to assist. Please drop us a DM. We will promptly assist you. Regards, Team Razorpay. https://t.co/K5EfXqMykd",
+      "language": "en",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "view_count": 15,
+      "user": {
+        "id": "807158172305625088",
+        "name": "Razorpay Care",
+        "screen_name": "RazorpayCare",
+        "followers_count": 4586,
+        "following_count": 2,
+        "is_verified": true,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/911111218940616705/8A3c7lFO_normal.jpg",
+        "description": "This is the Twitter handle for @Razorpay Support. For a quick resolution please raise a request here: https://t.co/kNmRzkT3xk"
+      },
+      "is_reply": true,
+      "in_reply_to_tweet_id": "1896968033681465598",
+      "in_reply_to_user": "arorasmohan",
+      "is_quote": false,
+      "conversation_id": "1896968033681465598",
+      "hashtags": [],
+      "mentions": [
+        {
+          "screen_name": "arorasmohan",
+          "name": "Surendra Mohan Arora",
+          "id": "895667473650864129"
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/K5EfXqMykd",
+          "expanded_url": "https://x.com/messages/compose?recipient_id=807158172305625088",
+          "display_url": "x.com/messages/compo…"
+        }
+      ],
+      "media": [],
+      "tweet_url": "https://x.com/RazorpayCare/status/1897228853812277722"
+    },
+    {
+      "id": "1897223892856631728",
+      "created_at": "Wed Mar 05 09:53:19 +0000 2025",
+      "full_text": "@arorasmohan Dear Mr Arora, we appreciate your patience as this matter took longer than expected. As discussed with Juhi, the refund has been processed and should appear in your account within 3 to 7 business days. (1/2)",
+      "language": "en",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "view_count": 6,
+      "user": {
+        "id": "1457659983160512517",
+        "name": "BluSmart Support",
+        "screen_name": "BluSmartHelps",
+        "followers_count": 768,
+        "following_count": 8,
+        "is_verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1459742874111660032/UdAzcbc7_normal.jpg",
+        "description": "Namastey!🙏🏽 This is the Official Twitter support channel of @BluSmartIndia. We're available 24/7 to help."
+      },
+      "is_reply": true,
+      "in_reply_to_tweet_id": "1896968033681465598",
+      "in_reply_to_user": "arorasmohan",
+      "is_quote": false,
+      "conversation_id": "1896968033681465598",
+      "hashtags": [],
+      "mentions": [
+        {
+          "screen_name": "arorasmohan",
+          "name": "Surendra Mohan Arora",
+          "id": "895667473650864129"
+        }
+      ],
+      "urls": [],
+      "media": [],
+      "tweet_url": "https://x.com/BluSmartHelps/status/1897223892856631728"
+    }
+  ],
+  "conversation_id": "1896968033681465598"
+}

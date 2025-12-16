@@ -97,6 +97,7 @@ class TwitterSearchAPI:
     """Twitter Search API client using GraphQL endpoint."""
     
     BASE_URL = "https://x.com/i/api/graphql/bshMIjqDk8LTXTq4w91WKw/SearchTimeline"
+    TWEET_DETAIL_URL = "https://x.com/i/api/graphql/nBS-WpgA6ZG0CyNHD517JQ/TweetDetail"
     
     # Features required by the API
     FEATURES = {
@@ -133,6 +134,33 @@ class TwitterSearchAPI:
         "responsive_web_grok_image_annotation_enabled": True,
         "responsive_web_grok_imagine_annotation_enabled": True,
         "responsive_web_grok_community_note_auto_translation_is_enabled": False,
+        "responsive_web_enhance_cards_enabled": False
+    }
+    
+    # Features for TweetDetail API (conversation fetching)
+    TWEET_DETAIL_FEATURES = {
+        "rweb_tipjar_consumption_enabled": True,
+        "responsive_web_graphql_exclude_directive_enabled": True,
+        "verified_phone_label_enabled": True,
+        "creator_subscriptions_tweet_preview_api_enabled": True,
+        "responsive_web_graphql_timeline_navigation_enabled": True,
+        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": False,
+        "communities_web_enable_tweet_community_results_fetch": True,
+        "c9s_tweet_anatomy_moderator_badge_enabled": True,
+        "articles_preview_enabled": True,
+        "responsive_web_edit_tweet_api_enabled": True,
+        "graphql_is_translatable_rweb_tweet_is_translatable_enabled": True,
+        "view_counts_everywhere_api_enabled": True,
+        "longform_notetweets_consumption_enabled": True,
+        "responsive_web_twitter_article_tweet_consumption_enabled": True,
+        "tweet_awards_web_tipping_enabled": False,
+        "creator_subscriptions_quote_tweet_preview_enabled": False,
+        "freedom_of_speech_not_reach_fetch_enabled": True,
+        "standardized_nudges_misinfo": True,
+        "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": True,
+        "rweb_video_timestamps_enabled": True,
+        "longform_notetweets_rich_text_read_enabled": True,
+        "longform_notetweets_inline_media_enabled": True,
         "responsive_web_enhance_cards_enabled": False
     }
     
@@ -282,6 +310,117 @@ class TwitterSearchAPI:
         
         return all_tweets[:max_tweets]
     
+    def get_conversation(self, tweet_id: str) -> dict:
+        """
+        Fetch the full conversation thread for a specific tweet.
+        
+        Args:
+            tweet_id: The ID of the tweet to fetch conversation for
+        
+        Returns:
+            Dictionary containing the main tweet and all replies in the thread
+        """
+        variables = {
+            "focalTweetId": tweet_id,
+            "with_rux_injections": False,
+            "rankingMode": "Relevance",
+            "includePromotedContent": False,
+            "withCommunity": True,
+            "withQuickPromoteEligibilityTweetFields": True,
+            "withBirdwatchNotes": True,
+            "withVoice": True
+        }
+        
+        params = {
+            "variables": json.dumps(variables),
+            "features": json.dumps(self.TWEET_DETAIL_FEATURES)
+        }
+        
+        url = f"{self.TWEET_DETAIL_URL}?{urllib.parse.urlencode(params)}"
+        
+        response = requests.get(
+            url,
+            headers=self._build_headers(),
+            cookies=self.cookies
+        )
+        
+        response.raise_for_status()
+        return response.json()
+    
+    def get_conversation_parsed(self, tweet_id: str) -> dict:
+        """
+        Fetch and parse the conversation thread for a tweet.
+        
+        Args:
+            tweet_id: The ID of the tweet to fetch conversation for
+        
+        Returns:
+            Dictionary with 'main_tweet' and 'replies' list
+        """
+        response = self.get_conversation(tweet_id)
+        return self.parse_conversation_response(response)
+    
+    @staticmethod
+    def parse_conversation_response(response: dict) -> dict:
+        """
+        Parse a TweetDetail API response into structured conversation data.
+        
+        Returns:
+            Dictionary with:
+                - main_tweet: The focal tweet data
+                - replies: List of reply tweets (flattened tree)
+                - conversation_id: The root conversation ID
+        """
+        result = {
+            "main_tweet": None,
+            "replies": [],
+            "conversation_id": None
+        }
+        
+        instructions = (
+            response.get("data", {})
+            .get("threaded_conversation_with_injections_v2", {})
+            .get("instructions", [])
+        )
+        
+        for instruction in instructions:
+            if instruction.get("type") == "TimelineAddEntries":
+                entries = instruction.get("entries", [])
+                
+                for entry in entries:
+                    entry_id = entry.get("entryId", "")
+                    content = entry.get("content", {})
+                    
+                    # Skip cursor entries
+                    if entry_id.startswith("cursor"):
+                        continue
+                    
+                    # Handle main tweet
+                    if entry_id.startswith("tweet-"):
+                        item_content = content.get("itemContent", {})
+                        tweet_result = item_content.get("tweet_results", {}).get("result", {})
+                        
+                        if tweet_result:
+                            tweet_data = TwitterSearchAPI._extract_tweet_data(tweet_result)
+                            if tweet_data:
+                                result["main_tweet"] = tweet_data
+                                result["conversation_id"] = tweet_data.get("conversation_id")
+                    
+                    # Handle conversation threads (replies)
+                    elif entry_id.startswith("conversationthread-"):
+                        items = content.get("items", [])
+                        
+                        for item in items:
+                            item_content = item.get("item", {}).get("itemContent", {})
+                            tweet_result = item_content.get("tweet_results", {}).get("result", {})
+                            
+                            if tweet_result and tweet_result.get("__typename") == "Tweet":
+                                tweet_data = TwitterSearchAPI._extract_tweet_data(tweet_result)
+                                if tweet_data:
+                                    result["replies"].append(tweet_data)
+        
+        return result
+    
     @staticmethod
     def parse_response(response: dict) -> tuple:
         """
@@ -345,7 +484,7 @@ class TwitterSearchAPI:
         if not legacy:
             return None
         
-        # Extract user info
+        # Extract user info (handle both Search API and TweetDetail API structures)
         user_result = (
             tweet_result.get("core", {})
             .get("user_results", {})
@@ -353,6 +492,10 @@ class TwitterSearchAPI:
         )
         user_core = user_result.get("core", {})
         user_legacy = user_result.get("legacy", {})
+        
+        # TweetDetail API has name/screen_name in legacy, Search API has them in core
+        user_name = user_core.get("name") or user_legacy.get("name")
+        user_screen_name = user_core.get("screen_name") or user_legacy.get("screen_name")
         
         # Extract media URLs if present
         media_urls = []
@@ -413,12 +556,12 @@ class TwitterSearchAPI:
             # User info
             "user": {
                 "id": user_result.get("rest_id"),
-                "name": user_core.get("name"),
-                "screen_name": user_core.get("screen_name"),
+                "name": user_name,
+                "screen_name": user_screen_name,
                 "followers_count": user_legacy.get("followers_count", 0),
                 "following_count": user_legacy.get("friends_count", 0),
                 "is_verified": user_result.get("is_blue_verified", False),
-                "profile_image_url": user_result.get("avatar", {}).get("image_url"),
+                "profile_image_url": user_result.get("avatar", {}).get("image_url") or user_legacy.get("profile_image_url_https"),
                 "description": user_legacy.get("description", "")
             },
             
@@ -436,7 +579,7 @@ class TwitterSearchAPI:
             "media": media_urls,
             
             # Tweet URL
-            "tweet_url": f"https://x.com/{user_core.get('screen_name')}/status/{tweet_result.get('rest_id')}"
+            "tweet_url": f"https://x.com/{user_screen_name}/status/{tweet_result.get('rest_id')}"
         }
 
 
@@ -514,32 +657,79 @@ def print_tweets(tweets: list, limit: int = 10):
         print(f"... and {len(tweets) - limit} more tweets")
 
 
+def print_conversation(conversation: dict):
+    """Print conversation thread to console."""
+    main_tweet = conversation.get("main_tweet")
+    replies = conversation.get("replies", [])
+    
+    print(f"\n{'='*80}")
+    print(f"CONVERSATION THREAD")
+    print(f"{'='*80}\n")
+    
+    if main_tweet:
+        print(f"🔹 MAIN TWEET")
+        print(f"   @{main_tweet['user']['screen_name']} ({main_tweet['user']['name']})")
+        print(f"   {main_tweet['full_text']}")
+        print(f"   ❤️ {main_tweet['favorite_count']} | 🔁 {main_tweet['retweet_count']} | 💬 {main_tweet['reply_count']} | 👁️ {main_tweet['view_count']:,}")
+        print(f"   {main_tweet['created_at']}")
+        print()
+    
+    if replies:
+        print(f"📝 REPLIES ({len(replies)} total)")
+        print("-" * 40)
+        
+        for i, reply in enumerate(replies):
+            indent = "   "
+            print(f"{indent}↳ @{reply['user']['screen_name']}")
+            print(f"{indent}  {reply['full_text'][:200]}{'...' if len(reply['full_text']) > 200 else ''}")
+            print(f"{indent}  ❤️ {reply['favorite_count']} | 🔁 {reply['retweet_count']} | {reply['created_at']}")
+            if reply.get('in_reply_to_user'):
+                print(f"{indent}  ↪ Reply to: @{reply['in_reply_to_user']}")
+            print()
+    else:
+        print("No replies found in this conversation.")
+
+
+def save_conversation_to_json(conversation: dict, filename: str):
+    """Save conversation to JSON file."""
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(conversation, f, indent=2, ensure_ascii=False)
+    
+    reply_count = len(conversation.get("replies", []))
+    print(f"Saved conversation with {reply_count} replies to {filename}")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Fetch tweets from Twitter/X using the GraphQL Search API",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-    python fetch_tweets.py --query "Razorpay" --since 2025-03-03 --until 2025-03-05
-    python fetch_tweets.py --query "#Bitcoin" --since 2025-01-01 --count 100
-    python fetch_tweets.py --query "from:elonmusk" --since 2025-01-01 --output elon_tweets.json
+    python fetch_tweets.py                                          # Uses defaults: Razorpay, 2025-03-03 to 2025-03-05, tweets.json
+    python fetch_tweets.py --query "#Bitcoin" --since 2025-01-01    # Custom query and date
+    python fetch_tweets.py --filter-type replies --count 50         # Only replies, 50 tweets
+    python fetch_tweets.py --conversation 1896968033681465598       # Fetch full conversation thread for a tweet
         """
     )
     
-    # Required arguments
-    parser.add_argument("--query", "-q", required=True, help="Search query (e.g., 'Razorpay', '#Bitcoin', 'from:username')")
+    # Search query with default
+    parser.add_argument("--query", "-q", default="Razorpay", help="Search query (default: 'Razorpay')")
     
-    # Date filters
-    parser.add_argument("--since", "-s", help="Start date (YYYY-MM-DD)")
-    parser.add_argument("--until", "-u", help="End date (YYYY-MM-DD)")
+    # Date filters with defaults
+    parser.add_argument("--since", "-s", default="2025-03-03", help="Start date (default: 2025-03-03)")
+    parser.add_argument("--until", "-u", default="2025-03-05", help="End date (default: 2025-03-05)")
     
     # Options
     parser.add_argument("--count", "-c", type=int, default=20, help="Number of tweets to fetch (default: 20)")
     parser.add_argument("--product", "-p", choices=["Latest", "Top"], default="Latest", help="Search product type (default: Latest)")
-    parser.add_argument("--output", "-o", help="Output file path (supports .json or .csv)")
+    parser.add_argument("--output", "-o", default="tweets.json", help="Output file path (default: tweets.json)")
     parser.add_argument("--paginate", action="store_true", help="Fetch all tweets with pagination (up to --count)")
     parser.add_argument("--filter-type", "-f", choices=["all", "posts", "replies"], default="all", 
                         help="Filter by tweet type: 'all' (default), 'posts' (original only), 'replies' (replies only)")
+    
+    # Conversation mode
+    parser.add_argument("--conversation", "--thread", "-t", metavar="TWEET_ID",
+                        help="Fetch full conversation thread for a specific tweet ID")
     
     # Authentication (should be set as environment variables or config file in production)
     parser.add_argument("--auth-token", default=os.environ.get("TWITTER_AUTH_TOKEN", "318969313bcce70b4ce79ee0f2bd9894284b678c"))
@@ -564,49 +754,65 @@ Examples:
     )
     
     try:
-        print(f"Searching for: {args.query}")
-        if args.since:
-            print(f"Since: {args.since}")
-        if args.until:
-            print(f"Until: {args.until}")
-        print(f"Count: {args.count}")
-        print()
+        # Mode 1: Fetch conversation thread for a specific tweet
+        if args.conversation:
+            print(f"Fetching conversation for tweet: {args.conversation}")
+            print()
+            
+            conversation = api.get_conversation_parsed(args.conversation)
+            
+            # Print conversation
+            print_conversation(conversation)
+            
+            # Save to file
+            if args.output:
+                save_conversation_to_json(conversation, args.output)
         
-        if args.paginate:
-            tweets = api.search_all(
-                query=args.query,
-                since=args.since,
-                until=args.until,
-                max_tweets=args.count,
-                product=args.product
-            )
+        # Mode 2: Search for tweets
         else:
-            response = api.search(
-                query=args.query,
-                since=args.since,
-                until=args.until,
-                count=args.count,
-                product=args.product
-            )
-            tweets, _ = api.parse_response(response)
-        
-        # Filter by tweet type if specified
-        if args.filter_type == "posts":
-            tweets = [t for t in tweets if not t.get("is_reply", False)]
-            print(f"Filtered to original posts only")
-        elif args.filter_type == "replies":
-            tweets = [t for t in tweets if t.get("is_reply", False)]
-            print(f"Filtered to replies only")
-        
-        # Print summary
-        print_tweets(tweets)
-        
-        # Save to file if specified
-        if args.output:
-            if args.output.endswith('.csv'):
-                save_to_csv(tweets, args.output)
+            print(f"Searching for: {args.query}")
+            if args.since:
+                print(f"Since: {args.since}")
+            if args.until:
+                print(f"Until: {args.until}")
+            print(f"Count: {args.count}")
+            print()
+            
+            if args.paginate:
+                tweets = api.search_all(
+                    query=args.query,
+                    since=args.since,
+                    until=args.until,
+                    max_tweets=args.count,
+                    product=args.product
+                )
             else:
-                save_to_json(tweets, args.output)
+                response = api.search(
+                    query=args.query,
+                    since=args.since,
+                    until=args.until,
+                    count=args.count,
+                    product=args.product
+                )
+                tweets, _ = api.parse_response(response)
+            
+            # Filter by tweet type if specified
+            if args.filter_type == "posts":
+                tweets = [t for t in tweets if not t.get("is_reply", False)]
+                print(f"Filtered to original posts only")
+            elif args.filter_type == "replies":
+                tweets = [t for t in tweets if t.get("is_reply", False)]
+                print(f"Filtered to replies only")
+            
+            # Print summary
+            print_tweets(tweets)
+            
+            # Save to file if specified
+            if args.output:
+                if args.output.endswith('.csv'):
+                    save_to_csv(tweets, args.output)
+                else:
+                    save_to_json(tweets, args.output)
         
     except requests.exceptions.HTTPError as e:
         print(f"HTTP Error: {e}")
