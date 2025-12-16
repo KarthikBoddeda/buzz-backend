@@ -388,6 +388,71 @@ class TwitterSearchAPI:
         
         return all_tweets[:max_tweets]
     
+    def fetch_all(
+        self,
+        query: str,
+        since: Optional[str] = None,
+        until: Optional[str] = None,
+        since_time: Optional[int] = None,
+        until_time: Optional[int] = None,
+        product: str = "Latest",
+        max_pages: int = 50  # Safety limit to prevent infinite loops
+    ) -> list:
+        """
+        Fetch ALL tweets matching the query with full pagination (no count limit).
+        
+        This method keeps fetching pages until there are no more results.
+        
+        Args:
+            query: Search query text
+            since: Start date in YYYY-MM-DD format (day granularity)
+            until: End date in YYYY-MM-DD format (day granularity)
+            since_time: Start time as Unix timestamp (second granularity)
+            until_time: End time as Unix timestamp (second granularity)
+            product: "Latest" or "Top"
+            max_pages: Maximum number of pages to fetch (safety limit, default 50)
+        
+        Returns:
+            List of all parsed tweet data
+        """
+        all_tweets = []
+        cursor = None
+        page = 0
+        
+        while page < max_pages:
+            page += 1
+            
+            response = self.search(
+                query=query,
+                since=since,
+                until=until,
+                since_time=since_time,
+                until_time=until_time,
+                count=20,  # Max per page
+                product=product,
+                cursor=cursor
+            )
+            
+            tweets, next_cursor = self.parse_response(response)
+            
+            if not tweets:
+                print(f"No more tweets found. Total: {len(all_tweets)}")
+                break
+            
+            all_tweets.extend(tweets)
+            print(f"Page {page}: Fetched {len(tweets)} tweets (Total: {len(all_tweets)})")
+            
+            if not next_cursor:
+                print(f"Reached end of results. Total: {len(all_tweets)}")
+                break
+            
+            cursor = next_cursor
+        
+        if page >= max_pages:
+            print(f"Reached max pages limit ({max_pages}). Total: {len(all_tweets)}")
+        
+        return all_tweets
+    
     def get_conversation(self, tweet_id: str) -> dict:
         """
         Fetch the full conversation thread for a specific tweet.
@@ -783,10 +848,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-    python twitter.py                                                    # Uses defaults
-    python twitter.py --query "#Bitcoin" --since 2025-01-01             # Day granularity
+    python twitter.py                                                    # Paginated fetch (default 20 tweets)
+    python twitter.py --count 100                                        # Fetch up to 100 tweets with pagination
+    python twitter.py --all                                              # Fetch ALL tweets (no limit)
     python twitter.py --since "2025-03-04 10:00" --until "2025-03-04 11:00"  # Hour granularity
-    python twitter.py --since "2025-03-04 10:30:00" --until "2025-03-04 10:45:00"  # Minute granularity
+    python twitter.py --no-paginate                                      # Only first page (no pagination)
     python twitter.py --conversation 1896968033681465598                # Fetch conversation thread
         """
     )
@@ -804,7 +870,10 @@ Examples:
     parser.add_argument("--count", "-c", type=int, default=20, help="Number of tweets to fetch (default: 20)")
     parser.add_argument("--product", "-p", choices=["Latest", "Top"], default="Latest", help="Search product type (default: Latest)")
     parser.add_argument("--output", "-o", default="tweets.json", help="Output file path (default: tweets.json)")
-    parser.add_argument("--paginate", action="store_true", help="Fetch all tweets with pagination (up to --count)")
+    parser.add_argument("--all", "-a", action="store_true", 
+                        help="Fetch ALL tweets (no limit, full pagination until no more results)")
+    parser.add_argument("--no-paginate", action="store_true", 
+                        help="Disable pagination, only fetch first page (default: pagination enabled)")
     parser.add_argument("--filter-type", "-f", choices=["all", "posts", "replies"], default="all", 
                         help="Filter by tweet type: 'all' (default), 'posts' (original only), 'replies' (replies only)")
     
@@ -867,17 +936,19 @@ Examples:
             print(f"Count: {args.count}")
             print()
             
-            if args.paginate:
-                tweets = api.search_all(
+            if args.all:
+                # Fetch ALL tweets with full pagination (no limit)
+                print("Fetching ALL tweets (full pagination)...")
+                tweets = api.fetch_all(
                     query=args.query,
                     since=since_date,
                     until=until_date,
                     since_time=since_time,
                     until_time=until_time,
-                    max_tweets=args.count,
                     product=args.product
                 )
-            else:
+            elif args.no_paginate:
+                # Only fetch first page (old behavior)
                 response = api.search(
                     query=args.query,
                     since=since_date,
@@ -888,6 +959,17 @@ Examples:
                     product=args.product
                 )
                 tweets, _ = api.parse_response(response)
+            else:
+                # Default: paginate up to --count (default 20)
+                tweets = api.search_all(
+                    query=args.query,
+                    since=since_date,
+                    until=until_date,
+                    since_time=since_time,
+                    until_time=until_time,
+                    max_tweets=args.count,
+                    product=args.product
+                )
             
             # Filter by tweet type if specified
             if args.filter_type == "posts":
