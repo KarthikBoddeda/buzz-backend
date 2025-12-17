@@ -1,0 +1,20 @@
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# HTTP Client
+requests>=2.31.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Data Validation (comes with FastAPI, but explicit)
+pydantic>=2.5.0
+
+# Development & Testing
+pytest>=7.4.0
+httpx>=0.25.0  # For testing FastAPI endpoints
+
