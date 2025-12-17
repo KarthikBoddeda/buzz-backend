@@ -13,4 +13,4 @@ analysis_results.json
 
 # OS
 .DS_Store
-
+.venv
