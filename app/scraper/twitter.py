@@ -13,10 +13,14 @@ import argparse
 import json
 import requests
 import urllib.parse
+import urllib3
 from datetime import datetime
 from typing import Optional
 import csv
 import os
+
+# Disable SSL warnings (required for corporate networks)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 class TransactionIdManager:
@@ -316,8 +320,8 @@ class TwitterSearchAPI:
             variables["cursor"] = cursor
         
         params = {
-            "variables": json.dumps(variables),
-            "features": json.dumps(self.FEATURES)
+            "variables": json.dumps(variables, separators=(',', ':')),
+            "features": json.dumps(self.FEATURES, separators=(',', ':'))
         }
         
         url = f"{self.BASE_URL}?{urllib.parse.urlencode(params)}"
@@ -325,7 +329,8 @@ class TwitterSearchAPI:
         response = requests.get(
             url,
             headers=self._build_headers(),
-            cookies=self.cookies
+            cookies=self.cookies,
+            verify=False
         )
         
         response.raise_for_status()
@@ -475,8 +480,8 @@ class TwitterSearchAPI:
         }
         
         params = {
-            "variables": json.dumps(variables),
-            "features": json.dumps(self.TWEET_DETAIL_FEATURES)
+            "variables": json.dumps(variables, separators=(',', ':')),
+            "features": json.dumps(self.TWEET_DETAIL_FEATURES, separators=(',', ':'))
         }
         
         url = f"{self.TWEET_DETAIL_URL}?{urllib.parse.urlencode(params)}"
@@ -484,7 +489,8 @@ class TwitterSearchAPI:
         response = requests.get(
             url,
             headers=self._build_headers(),
-            cookies=self.cookies
+            cookies=self.cookies,
+            verify=False
         )
         
         response.raise_for_status()
