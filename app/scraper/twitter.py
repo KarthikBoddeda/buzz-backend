@@ -96,7 +96,7 @@ class TransactionIdManager:
 class TwitterSearchAPI:
     """Twitter Search API client using GraphQL endpoint."""
     
-    BASE_URL = "https://x.com/i/api/graphql/bshMIjqDk8LTXTq4w91WKw/SearchTimeline"
+    BASE_URL = "https://x.com/i/api/graphql/M1jEez78PEfVfbQLvlWMvQ/SearchTimeline"
     TWEET_DETAIL_URL = "https://x.com/i/api/graphql/nBS-WpgA6ZG0CyNHD517JQ/TweetDetail"
     
     # Features required by the API
@@ -169,7 +169,7 @@ class TwitterSearchAPI:
         auth_token: str,
         csrf_token: str,
         bearer_token: str = "AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA",
-        transaction_id: str = "D1r/HKLyEPoi/MKMVHaht4PQUPOZ251HMAuf64wl+WmEAw1UnvukjO2YQJs8GJwThEUb/QtHKpj1DZjTKuZiWedmi2kMDD"
+        transaction_id: str = "80u7uR7Sd6xL2VIi0MU4hfngi3wjrwoRvoe16PU6b4sqHy5d8W1VJylg9U/PED4cs0KEAPdvjMUA23U/trzDqgFYU8Kf8A"
     ):
         self.auth_token = auth_token
         self.csrf_token = csrf_token
@@ -884,7 +884,7 @@ Examples:
     # Authentication (should be set as environment variables or config file in production)
     parser.add_argument("--auth-token", default=os.environ.get("TWITTER_AUTH_TOKEN", "318969313bcce70b4ce79ee0f2bd9894284b678c"))
     parser.add_argument("--csrf-token", default=os.environ.get("TWITTER_CSRF_TOKEN", "59129146a000bff89f83651651da577a80395b1e1aae8ebbdf7d9a9e89d21fcc59b544ba05665ae39ca5f08f02ae06cfc990ef24431ed2c308102b4b0fb8038d06ab3de67baeaa0c7f338bc4b13c8c70"))
-    parser.add_argument("--transaction-id", default=os.environ.get("TWITTER_TRANSACTION_ID", "D1r/HKLyEPoi/MKMVHaht4PQUPOZ251HMAuf64wl+WmEAw1UnvukjO2YQJs8GJwThEUb/QtHKpj1DZjTKuZiWedmi2kMDE"))
+    parser.add_argument("--transaction-id", default=os.environ.get("TWITTER_TRANSACTION_ID", "80u7uR7Sd6xL2VIi0MU4hfngi3wjrwoRvoe16PU6b4sqHy5d8W1VJylg9U/PED4cs0KEAPdvjMUA23U/trzDqgFYU8Kf8B"))
     
     args = parser.parse_args()
     
