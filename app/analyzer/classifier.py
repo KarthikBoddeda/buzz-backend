@@ -8,7 +8,11 @@ import requests
 import json
 import sys
 import os
+import urllib3
 from dotenv import load_dotenv
+
+# Disable SSL warnings (required for corporate networks)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 load_dotenv()
 
@@ -148,7 +152,7 @@ def classify_tweet(tweet_text: str, image_url: str = None) -> dict:
     }
     
     try:
-        response = requests.post(API_URL, headers=HEADERS, json=payload)
+        response = requests.post(API_URL, headers=HEADERS, json=payload, verify=False)
         response.raise_for_status()
         
         result = response.json()
