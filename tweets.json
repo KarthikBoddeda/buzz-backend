@@ -1,263 +1,243 @@
 [
   {
-    "id": "1897004569202450945",
-    "created_at": "Tue Mar 04 19:21:48 +0000 2025",
-    "full_text": "@RazorpayCare Request Team @Razorpay  To Acknowledge This Issue From Their End &amp; Provide Request No / Reference No Regarding The Same .To Provide Either Full Refund Or Delivery Of Good To Us And Also To Provide Expected Time Till When Our Issue Will Be Resolved. Shared Same Via DM Please Reply",
+    "id": "2001301587638243436",
+    "created_at": "Wed Dec 17 14:40:55 +0000 2025",
+    "full_text": "@Razorpay I know this @Airbnb PG integration is new, but you really need to figure out the failure flows. This is pretty annoying.\n\n@Airbnb_in @AirbnbHelp @RazorpayCare",
     "language": "en",
     "favorite_count": 0,
     "retweet_count": 0,
-    "reply_count": 1,
+    "reply_count": 0,
     "quote_count": 0,
     "bookmark_count": 0,
-    "view_count": 21,
+    "view_count": 4,
     "user": {
-      "id": "1377857102027268099",
-      "name": "Mani Ratan Pratap Singh",
-      "screen_name": "maniratanprata",
-      "followers_count": 7,
-      "following_count": 38,
-      "is_verified": false,
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1657463956435509250/HT4F7oJQ_normal.jpg",
-      "description": "A Simple Life Is The Best Version You Can Be."
+      "id": "317917073",
+      "name": "mjs",
+      "screen_name": "manasjsaloi",
+      "followers_count": 38885,
+      "following_count": 0,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1802302481025699841/IZkW-LQ5_normal.jpg",
+      "description": ""
     },
     "is_reply": true,
-    "in_reply_to_tweet_id": "1896849457108697451",
+    "in_reply_to_tweet_id": "2001297212194828382",
+    "in_reply_to_user": "manasjsaloi",
+    "is_quote": false,
+    "conversation_id": "2001297212194828382",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "Airbnb",
+        "name": "Airbnb",
+        "id": "17416571"
+      },
+      {
+        "screen_name": "Airbnb_in",
+        "name": "Airbnb India",
+        "id": "1731291000"
+      },
+      {
+        "screen_name": "AirbnbHelp",
+        "name": "Airbnb Help",
+        "id": "2688148651"
+      },
+      {
+        "screen_name": "RazorpayCare",
+        "name": "Razorpay Care",
+        "id": "807158172305625088"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/manasjsaloi/status/2001301587638243436"
+  },
+  {
+    "id": "2001291294149320948",
+    "created_at": "Wed Dec 17 14:00:01 +0000 2025",
+    "full_text": "सवाल पूछने वाली पत्रकारिता? या अफ़वाहों का शोर?\n\nडिटॉक्स की उलटी गिनती शुरू\n\n14 दिन बचे हैं\n\nस्वतंत्र मीडिया को सब्सक्राइब करें\n\nhttps://t.co/wrZXBCRehK https://t.co/L5Gxkap4MK",
+    "language": "hi",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 73,
+    "user": {
+      "id": "913695375013244928",
+      "name": "Newslaundry Hindi",
+      "screen_name": "nlhindi",
+      "followers_count": 117812,
+      "following_count": 39,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1404365915186098181/2ni6ngyi_normal.jpg",
+      "description": "ग्राउंड रिपोर्ट्स और खबरों की धुलाई हिंदी में\nसब्सक्राइब करें : https://t.co/R5ZHWktxGL\n📧 hindi@newslaundry.com"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001291294149320948",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/wrZXBCRehK",
+        "expanded_url": "https://rzp.io/rzp/ujjpB44dyrs",
+        "display_url": "rzp.io/rzp/ujjpB44dyrs"
+      }
+    ],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8WfBsJa4AIfksR.jpg",
+        "expanded_url": "https://x.com/nlhindi/status/2001291294149320948/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/nlhindi/status/2001291294149320948"
+  },
+  {
+    "id": "2001285198357663759",
+    "created_at": "Wed Dec 17 13:35:48 +0000 2025",
+    "full_text": "@RazorpayCare Why isn't this a general process, why do you need my email and number rather than just providing the process to delete it. I never consented to you storing every address I put into razorpay when I make a payment to the websites I purchase items from",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 8,
+    "user": {
+      "id": "36597411",
+      "name": "KimKaiSoo",
+      "screen_name": "kimkaiso88",
+      "followers_count": 50,
+      "following_count": 239,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/810873714589847552/OiKheDPp_normal.jpg",
+      "description": "WE ARE ONE.😍"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001214159091052636",
     "in_reply_to_user": "RazorpayCare",
     "is_quote": false,
-    "conversation_id": "1876048241030287757",
+    "conversation_id": "2001155667114242523",
     "hashtags": [],
     "mentions": [
       {
         "screen_name": "RazorpayCare",
         "name": "Razorpay Care",
         "id": "807158172305625088"
-      },
-      {
-        "screen_name": "Razorpay",
-        "name": "Razorpay",
-        "id": "2609379660"
       }
     ],
     "urls": [],
     "media": [],
-    "tweet_url": "https://x.com/maniratanprata/status/1897004569202450945"
+    "tweet_url": "https://x.com/kimkaiso88/status/2001285198357663759"
   },
   {
-    "id": "1896999334190748042",
-    "created_at": "Tue Mar 04 19:01:00 +0000 2025",
-    "full_text": "No filters, no fluff!  \n\nAt TNM, we are committed to telling you the truth because you deserve news that is raw and reliable. \n\nScan the QR to support a newsroom that will always serve its audience and not those in power. https://t.co/6ZOluhmwvT https://t.co/bUqxKLdmCF",
+    "id": "2001284532591542438",
+    "created_at": "Wed Dec 17 13:33:09 +0000 2025",
+    "full_text": "@ccg33k @VikramKaile73 @justcardz @Atyanta83 @SartanparaYash @CardNiti Getting two option phone pe and razorpay gateway .",
     "language": "en",
     "favorite_count": 0,
     "retweet_count": 0,
     "reply_count": 0,
     "quote_count": 0,
     "bookmark_count": 0,
-    "view_count": 570,
+    "view_count": 9,
     "user": {
-      "id": "2227695199",
-      "name": "TheNewsMinute",
-      "screen_name": "thenewsminute",
-      "followers_count": 232827,
-      "following_count": 1057,
+      "id": "4848579795",
+      "name": "VIKAS GOYAL",
+      "screen_name": "goyalvikas007",
+      "followers_count": 64,
+      "following_count": 333,
       "is_verified": true,
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1408380639917711360/pl5Jepkq_normal.jpg",
-      "description": "Look south, think TNM. News, ground reports and analysis from south India.\n\nFor subscription related queries: members@thenewsminute.com"
+      "profile_image_url": "https://pbs.twimg.com/profile_images/692028950571126784/EA48h1td_normal.jpg",
+      "description": "Stock Market | IPO | Passion for Credit card | Collect Points & Miles🏨✈ | Love Travel🌏🧳 | Post for stock education purpose only & not a recommendation 🙂"
     },
-    "is_reply": false,
-    "in_reply_to_tweet_id": null,
-    "in_reply_to_user": null,
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001283725267763660",
+    "in_reply_to_user": "goyalvikas007",
     "is_quote": false,
-    "conversation_id": "1896999334190748042",
+    "conversation_id": "1999367160301511127",
     "hashtags": [],
-    "mentions": [],
-    "urls": [
+    "mentions": [
       {
-        "url": "https://t.co/6ZOluhmwvT",
-        "expanded_url": "https://pages.razorpay.com/tnm-11th",
-        "display_url": "pages.razorpay.com/tnm-11th"
+        "screen_name": "ccg33k",
+        "name": "Akash",
+        "id": "1669321792333438979"
+      },
+      {
+        "screen_name": "VikramKaile73",
+        "name": "Vikram K",
+        "id": "1970839944752226304"
+      },
+      {
+        "screen_name": "justcardz",
+        "name": "Just Cards",
+        "id": "1154507305284562944"
+      },
+      {
+        "screen_name": "Atyanta83",
+        "name": "chipu",
+        "id": "2193218859"
+      },
+      {
+        "screen_name": "SartanparaYash",
+        "name": "Yash Sartanpara",
+        "id": "3101572586"
+      },
+      {
+        "screen_name": "CardNiti",
+        "name": "CardNiti",
+        "id": "1948369460278231040"
       }
     ],
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/GlJDCT4XMAAaInS.jpg",
-        "expanded_url": "https://x.com/thenewsminute/status/1896999334190748042/photo/1"
-      }
-    ],
-    "tweet_url": "https://x.com/thenewsminute/status/1896999334190748042"
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/goyalvikas007/status/2001284532591542438"
   },
   {
-    "id": "1896991377113981187",
-    "created_at": "Tue Mar 04 18:29:23 +0000 2025",
-    "full_text": "Day 7\nLooking for a data scientist role in India! Experienced in [your key skills, e.g., ML, NLP, Python, SQL. Open to opportunities in fintech, AI, and analytics.\n@TCS @Wipro @PayPal @Infosys @Razorpay @ZeptoNow @Flipkart @CRED_club  @SwiggyTech\n#DataScience #Hiring #jobsearch",
+    "id": "2001272657329914155",
+    "created_at": "Wed Dec 17 12:45:58 +0000 2025",
+    "full_text": "𝟑𝟗 𝐈𝐧𝐝𝐢𝐚𝐧 𝐬𝐭𝐚𝐫𝐭𝐮𝐩𝐬. 𝐎𝐧𝐞 𝐜𝐨𝐦𝐦𝐨𝐧 𝐭𝐡𝐫𝐞𝐚𝐝 - 𝐑𝐚𝐳𝐨𝐫𝐩𝐚𝐲\n\nFrom fintech and SaaS to AI and consumer tech, former Razorpay employees have gone on to build 39 startups across the last decade. The “Razorpay effect” highlights how startup ecosystems https://t.co/8Nr6UNJFb6",
     "language": "en",
     "favorite_count": 1,
     "retweet_count": 0,
     "reply_count": 0,
     "quote_count": 0,
     "bookmark_count": 0,
-    "view_count": 157,
+    "view_count": 109,
     "user": {
-      "id": "1021261453829931008",
-      "name": "Ayan Talukdar",
-      "screen_name": "ImAyanTalukdar",
-      "followers_count": 137,
-      "following_count": 249,
-      "is_verified": false,
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1367942704210927616/K0w5WZNu_normal.jpg",
-      "description": "Shatter the shackles through arts ||Data Scientist @Samsu g ||Intern @Samsung RnD Institute Noida ||Intern @FeynnLabs ||https://t.co/zdqSqUbYoX: NIT Sil"
+      "id": "605783487",
+      "name": "Inc42",
+      "screen_name": "Inc42",
+      "followers_count": 52242,
+      "following_count": 305,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1956593609014124544/qoyCHsCw_normal.jpg",
+      "description": "The Authoritative Voice On The Indian Startup Ecosystem"
     },
     "is_reply": false,
     "in_reply_to_tweet_id": null,
     "in_reply_to_user": null,
     "is_quote": false,
-    "conversation_id": "1896991377113981187",
-    "hashtags": [
-      "DataScience",
-      "Hiring",
-      "jobsearch"
-    ],
-    "mentions": [
-      {
-        "screen_name": "TCS",
-        "name": "Tata Consultancy Services",
-        "id": "18929773"
-      },
-      {
-        "screen_name": "Wipro",
-        "name": "Wipro",
-        "id": "14390109"
-      },
-      {
-        "screen_name": "PayPal",
-        "name": "PayPal",
-        "id": "30018058"
-      },
-      {
-        "screen_name": "Infosys",
-        "name": "Infosys",
-        "id": "14462907"
-      },
-      {
-        "screen_name": "Razorpay",
-        "name": "Razorpay",
-        "id": "2609379660"
-      },
-      {
-        "screen_name": "ZeptoNow",
-        "name": "Zepto",
-        "id": "1414590037123944456"
-      },
-      {
-        "screen_name": "Flipkart",
-        "name": "Flipkart",
-        "id": "57947109"
-      },
-      {
-        "screen_name": "CRED_club",
-        "name": "CRED",
-        "id": "1027264470370770945"
-      },
-      {
-        "screen_name": "SwiggyTech",
-        "name": "Swiggy Tech",
-        "id": "1197020862420934657"
-      }
-    ],
-    "urls": [],
-    "media": [],
-    "tweet_url": "https://x.com/ImAyanTalukdar/status/1896991377113981187"
-  },
-  {
-    "id": "1896986500073709639",
-    "created_at": "Tue Mar 04 18:10:00 +0000 2025",
-    "full_text": "The future of millions of young Indians is at risk as India’s higher education system faces an unprecedented crisis.\n\nJohanna Deeksha is investigating irregularities in crucial exams held in the country.\n\nBut we need your support.\n\nPlease contribute: https://t.co/u8BRQVojCY https://t.co/pcouejPMMw",
-    "language": "en",
-    "favorite_count": 2,
-    "retweet_count": 2,
-    "reply_count": 0,
-    "quote_count": 0,
-    "bookmark_count": 1,
-    "view_count": 1146,
-    "user": {
-      "id": "414946220",
-      "name": "Scroll.in",
-      "screen_name": "scroll_in",
-      "followers_count": 470474,
-      "following_count": 111,
-      "is_verified": false,
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1605258806250070016/YGzA42cy_normal.jpg",
-      "description": "The news that matters and the things that make life worth living. Become a Scroll Member today. https://t.co/nJZ81D6Etp"
-    },
-    "is_reply": false,
-    "in_reply_to_tweet_id": null,
-    "in_reply_to_user": null,
-    "is_quote": false,
-    "conversation_id": "1896986500073709639",
+    "conversation_id": "2001272657329914155",
     "hashtags": [],
     "mentions": [],
-    "urls": [
-      {
-        "url": "https://t.co/u8BRQVojCY",
-        "expanded_url": "https://pages.razorpay.com/scrolleducationproject?utm_source=engagementblock",
-        "display_url": "pages.razorpay.com/scrolleducatio…"
-      }
-    ],
+    "urls": [],
     "media": [
       {
         "type": "photo",
-        "url": "https://pbs.twimg.com/media/GlM71RvXYAALgh1.jpg",
-        "expanded_url": "https://x.com/scroll_in/status/1896986500073709639/photo/1"
+        "url": "https://pbs.twimg.com/media/G8XvQaQWsAIrXX6.jpg",
+        "expanded_url": "https://x.com/Inc42/status/2001272657329914155/photo/1"
       }
     ],
-    "tweet_url": "https://x.com/scroll_in/status/1896986500073709639"
-  },
-  {
-    "id": "1896978565029355947",
-    "created_at": "Tue Mar 04 17:38:28 +0000 2025",
-    "full_text": "@adityakabra @ICICIBank @Razorpay It's true. In fact I didn't understand why there is a compulsion of the Current Account only. If there are one or two transactions monthly.",
-    "language": "en",
-    "favorite_count": 0,
-    "retweet_count": 0,
-    "reply_count": 0,
-    "quote_count": 0,
-    "bookmark_count": 0,
-    "view_count": 83,
-    "user": {
-      "id": "1059792660",
-      "name": "Prasad Pujari",
-      "screen_name": "veeradutta_engg",
-      "followers_count": 116,
-      "following_count": 143,
-      "is_verified": false,
-      "profile_image_url": "https://pbs.twimg.com/profile_images/1772133295574409216/p_S4VA2x_normal.jpg",
-      "description": "Brahman, Mechanical engineering, Co-founder Bharat CapiTAZ, Director Veeradutta Engg Pvt Ltd, Pune, stock market, Business Succession\nTweets are personal views."
-    },
-    "is_reply": true,
-    "in_reply_to_tweet_id": "1896905260498903138",
-    "in_reply_to_user": "adityakabra",
-    "is_quote": false,
-    "conversation_id": "1896904886245319085",
-    "hashtags": [],
-    "mentions": [
-      {
-        "screen_name": "adityakabra",
-        "name": "ADITYA KABRA",
-        "id": "126896627"
-      },
-      {
-        "screen_name": "ICICIBank",
-        "name": "ICICI Bank",
-        "id": "419298953"
-      },
-      {
-        "screen_name": "Razorpay",
-        "name": "Razorpay",
-        "id": "2609379660"
-      }
-    ],
-    "urls": [],
-    "media": [],
-    "tweet_url": "https://x.com/veeradutta_engg/status/1896978565029355947"
+    "tweet_url": "https://x.com/Inc42/status/2001272657329914155"
   }
 ]

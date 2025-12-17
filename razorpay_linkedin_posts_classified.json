@@ -1,0 +1,3705 @@
+{
+  "results": [
+    {
+      "post": {
+        "id": "7407007139912679424",
+        "platform": "linkedin",
+        "created_at": "Premium • 1st",
+        "full_text": "I am really proud of what we have been able to build in the last 10 years at Razorpay! This would have not have happened without the amazing team and people I have worked with.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 11,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Vivek Agarwal",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7407007139912679424/",
+        "urn": "urn:li:activity:7407007139912679424",
+        "author": "Feed post",
+        "author_title": "Vivek Agarwal",
+        "text": "I am really proud of what we have been able to build in the last 10 years at Razorpay! This would have not have happened without the amazing team and people I have worked with.",
+        "time_posted": "Premium • 1st",
+        "likes": 0,
+        "comments": 11
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 10,
+        "urgency_score": 1,
+        "impact_score": 8,
+        "summary": "The user expresses pride and appreciation for Razorpay’s achievements and team over the past decade.",
+        "key_issues": [
+          "Company milestone",
+          "Team appreciation",
+          "Positive sentiment"
+        ],
+        "suggested_action": "Engage positively by thanking the user and amplifying the tweet through likes or retweets to celebrate the milestone."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 128,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 822,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 950
+      }
+    },
+    {
+      "post": {
+        "id": "7406911630334369792",
+        "platform": "linkedin",
+        "created_at": "",
+        "full_text": "Assistant Manager | Helping IT Pros upskill with Global Certifications - ISO 27001 (ISMS), ISO 42001 (AI Governance), CISA, CISM, CRISC, ISO 27701 (PIMS), ISO 31000, ISO 22301 | Security, GRC, Privacy, Risk & Compliance",
+        "language": "en",
+        "favorite_count": 7,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Chinmay B - IT Career and Certification Advisor",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406911630334369792/",
+        "urn": "urn:li:activity:7406911630334369792",
+        "author": "Feed post",
+        "author_title": "Chinmay B - IT Career and Certification Advisor",
+        "text": "Assistant Manager | Helping IT Pros upskill with Global Certifications - ISO 27001 (ISMS), ISO 42001 (AI Governance), CISA, CISM, CRISC, ISO 27701 (PIMS), ISO 31000, ISO 22301 | Security, GRC, Privacy, Risk & Compliance",
+        "time_posted": "",
+        "likes": 7,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is promotional and unrelated to Razorpay; it lists certifications and professional roles without mentioning the company or any product.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Promotional tweet about IT certifications and compliance, not related to Razorpay.",
+        "key_issues": [
+          "Irrelevant promotional content"
+        ],
+        "suggested_action": "Ignore or filter out as spam; no Razorpay-related context or action required."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 136,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 850,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 986
+      }
+    },
+    {
+      "post": {
+        "id": "7404560499226423296",
+        "platform": "linkedin",
+        "created_at": "6 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "That’s why partnership sits right at the heart of our growth story. Whether it’s co-creating new solutions with ecosystem players, unlocking value for customers through integrations, or amplifying reach via channel collaborations — the impact of great partnerships is hard to overstate.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Vikram Priyadarshi",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404560499226423296/",
+        "urn": "urn:li:activity:7404560499226423296",
+        "author": "Feed post",
+        "author_title": "Vikram Priyadarshi",
+        "text": "That’s why partnership sits right at the heart of our growth story. Whether it’s co-creating new solutions with ecosystem players, unlocking value for customers through integrations, or amplifying reach via channel collaborations — the impact of great partnerships is hard to overstate.",
+        "time_posted": "6 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 4
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 5,
+        "summary": "A positive statement highlighting the importance of partnerships and collaborations in driving growth and customer value.",
+        "key_issues": [
+          "partnerships",
+          "ecosystem collaborations",
+          "customer value"
+        ],
+        "suggested_action": "Engage with the tweet to reinforce Razorpay’s commitment to partnerships and ecosystem growth; consider amplifying it through official channels."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 131,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 967
+      }
+    },
+    {
+      "post": {
+        "id": "7406674096471642114",
+        "platform": "linkedin",
+        "created_at": "22h • Edited •",
+        "full_text": "We are looking for a skilled Tableau Administrator to join our team. If you are passionate about data infrastructure and ensuring seamless analytics operations, we want to hear from you.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Prerit Khandelwal",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406674096471642114/",
+        "urn": "urn:li:activity:7406674096471642114",
+        "author": "Feed post",
+        "author_title": "Prerit Khandelwal",
+        "text": "We are looking for a skilled Tableau Administrator to join our team. If you are passionate about data infrastructure and ensuring seamless analytics operations, we want to hear from you.",
+        "time_posted": "22h • Edited •",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a job posting unrelated to Razorpay or its products; it does not mention Razorpay or any payment-related context.",
+        "category": null,
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "A job posting for a Tableau Administrator role, unrelated to Razorpay.",
+        "key_issues": [],
+        "suggested_action": "No action needed; tweet is irrelevant to Razorpay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 816,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 941
+      }
+    },
+    {
+      "post": {
+        "id": "7400503786970148865",
+        "platform": "linkedin",
+        "created_at": "Verified • 1st",
+        "full_text": "Beyond the code, I’ve had the privilege of wearing many hats winning projects, talking to customers, managing complex project deliveries and I’ve learned that a customer-first attitude and genuine teamwork are non-negotiable for success. I am incredibly proud of how we helped revolutionize the payments landscape in India.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Tanish Gupta",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7400503786970148865/",
+        "urn": "urn:li:activity:7400503786970148865",
+        "author": "Feed post",
+        "author_title": "Tanish Gupta",
+        "text": "Beyond the code, I’ve had the privilege of wearing many hats winning projects, talking to customers, managing complex project deliveries and I’ve learned that a customer-first attitude and genuine teamwork are non-negotiable for success. I am incredibly proud of how we helped revolutionize the payments landscape in India.",
+        "time_posted": "Verified • 1st",
+        "likes": 0,
+        "comments": 7
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 7,
+        "summary": "User expresses pride in contributing to Razorpay’s success and revolutionizing India’s payments landscape.",
+        "key_issues": [
+          "Positive sentiment",
+          "Teamwork",
+          "Customer-first attitude",
+          "Payments innovation"
+        ],
+        "suggested_action": "Engage with the tweet by thanking the user and amplifying it as a positive brand story."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 844,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 974
+      }
+    },
+    {
+      "post": {
+        "id": "7402301327747563520",
+        "platform": "linkedin",
+        "created_at": "1 week ago • Visible to anyone on or off LinkedIn",
+        "full_text": "It brings 12+financial operations (payments, orders, refunds, settlements, payment links, disputes, etc.) into n8n's drag-and-drop builder, allowing anyone to automate.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 15,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shashank Kumar",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7402301327747563520/",
+        "urn": "urn:li:activity:7402301327747563520",
+        "author": "Feed post",
+        "author_title": "Shashank Kumar",
+        "text": "It brings 12+financial operations (payments, orders, refunds, settlements, payment links, disputes, etc.) into n8n's drag-and-drop builder, allowing anyone to automate.",
+        "time_posted": "1 week ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 15
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 8,
+        "urgency_score": 2,
+        "impact_score": 6,
+        "summary": "A positive mention highlighting Razorpay’s integration with n8n for automating financial operations.",
+        "key_issues": [
+          "Integration",
+          "Automation",
+          "Financial operations"
+        ],
+        "suggested_action": "Engage positively by amplifying the tweet or thanking the user for showcasing Razorpay’s integration capabilities."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 124,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 821,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 945
+      }
+    },
+    {
+      "post": {
+        "id": "7396106719069732864",
+        "platform": "linkedin",
+        "created_at": "1mo • Edited •",
+        "full_text": "Today, whether you’re a fashion brand accepting international card payments on Shopify, an IT SaaS company receiving USD payments in a virtual account, or an agency invoicing clients across continents, we’ve built an international payments stack for you.",
+        "language": "en",
+        "favorite_count": 9,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shubham Bisht",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7396106719069732864/",
+        "urn": "urn:li:activity:7396106719069732864",
+        "author": "Feed post",
+        "author_title": "Shubham Bisht",
+        "text": "Today, whether you’re a fashion brand accepting international card payments on Shopify, an IT SaaS company receiving USD payments in a virtual account, or an agency invoicing clients across continents, we’ve built an international payments stack for you.",
+        "time_posted": "1mo • Edited •",
+        "likes": 9,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "Razorpay promotes its new international payments stack supporting global transactions for various business types.",
+        "key_issues": [
+          "international payments",
+          "cross-border transactions",
+          "virtual accounts",
+          "Shopify integration"
+        ],
+        "suggested_action": "Amplify this announcement through marketing channels and engage with users who may benefit from international payment capabilities."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 131,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 831,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 962
+      }
+    },
+    {
+      "post": {
+        "id": "7405075174959591424",
+        "platform": "linkedin",
+        "created_at": "5 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "Director, Communication Design at Razorpay | Ex-Head of Brand Design at Lenskart",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Sourajit Sengupta",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405075174959591424/",
+        "urn": "urn:li:activity:7405075174959591424",
+        "author": "Feed post",
+        "author_title": "Sourajit Sengupta",
+        "text": "Director, Communication Design at Razorpay | Ex-Head of Brand Design at Lenskart",
+        "time_posted": "5 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 7,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "A professional bio mentioning a Razorpay employee’s role and past experience.",
+        "key_issues": [
+          "Employee mention",
+          "Brand association"
+        ],
+        "suggested_action": "No action needed; this is a neutral professional mention of Razorpay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 111,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 803,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 914
+      }
+    },
+    {
+      "post": {
+        "id": "7406536183373225985",
+        "platform": "linkedin",
+        "created_at": "1 day ago • Visible to anyone on or off LinkedIn",
+        "full_text": "From the laughs and long chats to the team moments and time spent recharging in nature, it was a great reminder that the best work comes from real connection. We left feeling closer, recharged, and genuinely excited about what we’re building together. 💪🔥",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Razorpay Curlec",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406536183373225985/",
+        "urn": "urn:li:activity:7406536183373225985",
+        "author": "Feed post",
+        "author_title": "Razorpay Curlec",
+        "text": "From the laughs and long chats to the team moments and time spent recharging in nature, it was a great reminder that the best work comes from real connection. We left feeling closer, recharged, and genuinely excited about what we’re building together. 💪🔥",
+        "time_posted": "1 day ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 6,
+        "summary": "A positive tweet celebrating team bonding and enthusiasm for future work at Razorpay.",
+        "key_issues": [
+          "team culture",
+          "employee engagement",
+          "company morale"
+        ],
+        "suggested_action": "Engage with the tweet by liking or retweeting to amplify positive company culture and team spirit."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 122,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 960
+      }
+    },
+    {
+      "post": {
+        "id": "7402327061006331904",
+        "platform": "linkedin",
+        "created_at": "• live alerts for failures/disputes",
+        "full_text": "AI agents + no-code are making “idea → product” a same-day job. Payments can’t be the last manual step.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 12,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Harshil Mathur",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7402327061006331904/",
+        "urn": "urn:li:activity:7402327061006331904",
+        "author": "Feed post",
+        "author_title": "Harshil Mathur",
+        "text": "AI agents + no-code are making “idea → product” a same-day job. Payments can’t be the last manual step.",
+        "time_posted": "• live alerts for failures/disputes",
+        "likes": 0,
+        "comments": 12
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Feature Request",
+        "product": "Payment Gateway",
+        "sentiment_score": 7,
+        "urgency_score": 5,
+        "impact_score": 6,
+        "summary": "The user suggests automating payments to match the speed of AI and no-code product creation.",
+        "key_issues": [
+          "manual payment process",
+          "automation",
+          "integration with AI/no-code tools"
+        ],
+        "suggested_action": "Explore or promote API and automation solutions that enable seamless payment integration with AI and no-code platforms."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 131,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 810,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 941
+      }
+    },
+    {
+      "post": {
+        "id": "7401129974998626304",
+        "platform": "linkedin",
+        "created_at": "Premium • Following",
+        "full_text": "Our AI assistant, R.A.Y., is trained extensively on millions of payslips. It's directly linked to the salary register to answer any questions related to salary.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 6,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shashank Kumar",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7401129974998626304/",
+        "urn": "urn:li:activity:7401129974998626304",
+        "author": "Feed post",
+        "author_title": "Shashank Kumar",
+        "text": "Our AI assistant, R.A.Y., is trained extensively on millions of payslips. It's directly linked to the salary register to answer any questions related to salary.",
+        "time_posted": "Premium • Following",
+        "likes": 0,
+        "comments": 6
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payroll",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 6,
+        "summary": "Tweet highlights Razorpay’s AI assistant R.A.Y. and its integration with payroll data to answer salary-related queries.",
+        "key_issues": [
+          "AI assistant",
+          "salary register integration",
+          "payroll automation"
+        ],
+        "suggested_action": "Amplify this tweet through official channels as a positive showcase of Razorpay’s innovation in payroll technology."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 133,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 816,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 949
+      }
+    },
+    {
+      "post": {
+        "id": "7406717056311595008",
+        "platform": "linkedin",
+        "created_at": "Verified • 3rd+",
+        "full_text": "Sharing a personal project I built to strengthen my understanding of full-stack web development - EventCraft, an event planning and booking platform designed to simulate real-world application workflows.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Bharath Palanisamy Mettukadai",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406717056311595008/",
+        "urn": "urn:li:activity:7406717056311595008",
+        "author": "Feed post",
+        "author_title": "Bharath Palanisamy Mettukadai",
+        "text": "Sharing a personal project I built to strengthen my understanding of full-stack web development - EventCraft, an event planning and booking platform designed to simulate real-world application workflows.",
+        "time_posted": "Verified • 3rd+",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 7,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "User shares a personal project related to web development; no direct mention or feedback about Razorpay.",
+        "key_issues": [],
+        "suggested_action": "No action needed; monitor for potential future mentions of Razorpay integration."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 109,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 926
+      }
+    },
+    {
+      "post": {
+        "id": "7406801873342492672",
+        "platform": "linkedin",
+        "created_at": "",
+        "full_text": "This project helped me deeply understand how real payment systems operate — including asynchronous callbacks, order lifecycle management, and backend reliability.",
+        "language": "en",
+        "favorite_count": 8,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Arvind Dangi",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406801873342492672/",
+        "urn": "urn:li:activity:7406801873342492672",
+        "author": "Feed post",
+        "author_title": "Arvind Dangi",
+        "text": "This project helped me deeply understand how real payment systems operate — including asynchronous callbacks, order lifecycle management, and backend reliability.",
+        "time_posted": "",
+        "likes": 8,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 5,
+        "summary": "User expresses appreciation for learning about real payment system operations, likely referencing Razorpay’s payment gateway.",
+        "key_issues": [
+          "learning experience",
+          "payment system understanding",
+          "order lifecycle",
+          "backend reliability"
+        ],
+        "suggested_action": "Engage positively by thanking the user and possibly resharing their post to highlight educational value of Razorpay’s technology."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 136,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 807,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 943
+      }
+    },
+    {
+      "post": {
+        "id": "7399865372503367680",
+        "platform": "linkedin",
+        "created_at": "2w • Edited •",
+        "full_text": "This milestone would not have been possible without the exceptional guidance and support I received. I extend my sincere gratitude to,,andfor shaping me and continuously pushing me to grow.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 91,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Joel Jaimon",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7399865372503367680/",
+        "urn": "urn:li:activity:7399865372503367680",
+        "author": "Feed post",
+        "author_title": "Joel Jaimon",
+        "text": "This milestone would not have been possible without the exceptional guidance and support I received. I extend my sincere gratitude to,,andfor shaping me and continuously pushing me to grow.",
+        "time_posted": "2w • Edited •",
+        "likes": 0,
+        "comments": 91
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 3,
+        "summary": "User expresses gratitude for guidance and support in achieving a milestone.",
+        "key_issues": [
+          "gratitude",
+          "support",
+          "achievement"
+        ],
+        "suggested_action": "Acknowledge the appreciation with a thank-you or congratulatory reply if Razorpay or its team is implied in the message."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 122,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 939
+      }
+    },
+    {
+      "post": {
+        "id": "7405448911806443520",
+        "platform": "linkedin",
+        "created_at": "4 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "Connecting a payment gateway in a monolithic app is straightforward, but doing it in a distributed system is a different ball game. I had to ensure that my Payment Service (Port 5003) could securely talk to my User Service (Port 5001) without asking the user to log in again.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Jayashree Das",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405448911806443520/",
+        "urn": "urn:li:activity:7405448911806443520",
+        "author": "Feed post",
+        "author_title": "Jayashree Das",
+        "text": "Connecting a payment gateway in a monolithic app is straightforward, but doing it in a distributed system is a different ball game. I had to ensure that my Payment Service (Port 5003) could securely talk to my User Service (Port 5001) without asking the user to log in again.",
+        "time_posted": "4 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "General",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "User discusses technical challenges of integrating a payment gateway in a distributed system.",
+        "key_issues": [
+          "integration complexity",
+          "security between services",
+          "user authentication"
+        ],
+        "suggested_action": "No action needed; monitor for potential developer interest or engagement opportunity."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 115,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 845,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 960
+      }
+    },
+    {
+      "post": {
+        "id": "7401520454752215040",
+        "platform": "linkedin",
+        "created_at": "Premium • Following",
+        "full_text": "We’re already the largest non-bank cross-border payments player in India powering global brands we all know -,,,,,, and many more - and this license helps us scale that impact further.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 58,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shashank Kumar",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7401520454752215040/",
+        "urn": "urn:li:activity:7401520454752215040",
+        "author": "Feed post",
+        "author_title": "Shashank Kumar",
+        "text": "We’re already the largest non-bank cross-border payments player in India powering global brands we all know -,,,,,, and many more - and this license helps us scale that impact further.",
+        "time_posted": "Premium • Following",
+        "likes": 0,
+        "comments": 58
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "The tweet highlights Razorpay's leadership in cross-border payments and celebrates a new license that will help scale its impact.",
+        "key_issues": [
+          "cross-border payments",
+          "license acquisition",
+          "growth and scaling"
+        ],
+        "suggested_action": "Amplify this positive announcement through official channels and engage with the tweet to reinforce brand leadership in cross-border payments."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 135,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 819,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 954
+      }
+    },
+    {
+      "post": {
+        "id": "7404567990865887233",
+        "platform": "linkedin",
+        "created_at": "6 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "Razorpay has been in high-growth mode since day one. With a young, mobile-first India, businesses of every shape and size are expanding across the country and beyond. From India’s largest corporations to a small store in Lucknow selling kurtis, coffee estates in Coorg shipping some of the best beans nationwide, to grandmothers selling homemade papads from Kallidakurichi, the sheer diversity of entrepreneurs going all-in is incredible. Being front-row to this slow-brewing transformation is an experience in itself. And behind so many of these stories, Razorpay is the engine powering their payments.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 10,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404567990865887233/",
+        "urn": "urn:li:activity:7404567990865887233",
+        "author": "Feed post",
+        "author_title": "",
+        "text": "Razorpay has been in high-growth mode since day one. With a young, mobile-first India, businesses of every shape and size are expanding across the country and beyond. From India’s largest corporations to a small store in Lucknow selling kurtis, coffee estates in Coorg shipping some of the best beans nationwide, to grandmothers selling homemade papads from Kallidakurichi, the sheer diversity of entrepreneurs going all-in is incredible. Being front-row to this slow-brewing transformation is an experience in itself. And behind so many of these stories, Razorpay is the engine powering their payments.",
+        "time_posted": "6 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 10
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 10,
+        "urgency_score": 1,
+        "impact_score": 8,
+        "summary": "The tweet praises Razorpay for empowering diverse Indian businesses and driving digital payment growth across the country.",
+        "key_issues": [
+          "Positive brand perception",
+          "Support for diverse businesses",
+          "Role in India's digital payment transformation"
+        ],
+        "suggested_action": "Engage with the tweet by thanking the user and amplifying it through retweets or marketing content to highlight Razorpay’s impact on Indian entrepreneurship."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 144,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 907,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1051
+      }
+    },
+    {
+      "post": {
+        "id": "7404424470196760576",
+        "platform": "linkedin",
+        "created_at": "1 week ago • Visible to anyone on or off LinkedIn",
+        "full_text": "Huge congrats to Meesho and the founders Vidit Aatrey Sanjeev Barnwal on the listing today. Breaking out in a fiercely competitive space and building a truly category-defining company is no small feat.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Harshil Mathur",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404424470196760576/",
+        "urn": "urn:li:activity:7404424470196760576",
+        "author": "Feed post",
+        "author_title": "Harshil Mathur",
+        "text": "Huge congrats to Meesho and the founders Vidit Aatrey Sanjeev Barnwal on the listing today. Breaking out in a fiercely competitive space and building a truly category-defining company is no small feat.",
+        "time_posted": "1 week ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 7
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "A congratulatory message celebrating Meesho’s listing and founders’ success.",
+        "key_issues": [],
+        "suggested_action": "No action needed; the tweet does not mention Razorpay or any related issue."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 107,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 829,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 936
+      }
+    },
+    {
+      "post": {
+        "id": "7406364304029065216",
+        "platform": "linkedin",
+        "created_at": "1 day ago • Visible to anyone on or off LinkedIn",
+        "full_text": "What made this moment special was the real-world conversation we had around Razorpay’s journey, growth strategy, and how thoughtful decisions shape a high-impact fintech company 🚀. Listening to insights on acquisitions, long-term vision, and building sustainable business models beyond just numbers was truly eye-opening 📊➡️🌍.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Mahak Makhija",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406364304029065216/",
+        "urn": "urn:li:activity:7406364304029065216",
+        "author": "Feed post",
+        "author_title": "Mahak Makhija",
+        "text": "What made this moment special was the real-world conversation we had around Razorpay’s journey, growth strategy, and how thoughtful decisions shape a high-impact fintech company 🚀. Listening to insights on acquisitions, long-term vision, and building sustainable business models beyond just numbers was truly eye-opening 📊➡️🌍.",
+        "time_posted": "1 day ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 7,
+        "summary": "The tweet praises Razorpay’s growth strategy and thoughtful decision-making in building a sustainable fintech business.",
+        "key_issues": [
+          "company growth",
+          "strategy",
+          "acquisitions",
+          "sustainability"
+        ],
+        "suggested_action": "Engage positively by thanking the user for their appreciation and possibly amplify the tweet through retweets or comments highlighting Razorpay’s vision."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 138,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 846,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 984
+      }
+    },
+    {
+      "post": {
+        "id": "7405501474178469889",
+        "platform": "linkedin",
+        "created_at": "Day 6: Payment Integration with Razorpay 💳",
+        "full_text": "✅Solution: Created \"update_site_metrics_on_transaction()\" trigger that fires on every successful payment, updating total funds automatically! 🎯",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "aditya binjagermath",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405501474178469889/",
+        "urn": "urn:li:activity:7405501474178469889",
+        "author": "Feed post",
+        "author_title": "aditya binjagermath",
+        "text": "✅Solution: Created \"update_site_metrics_on_transaction()\" trigger that fires on every successful payment, updating total funds automatically! 🎯",
+        "time_posted": "Day 6: Payment Integration with Razorpay 💳",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 4,
+        "summary": "User shares a positive update about automating fund metrics after successful Razorpay payments.",
+        "key_issues": [
+          "successful payment",
+          "automation",
+          "site metrics update"
+        ],
+        "suggested_action": "Engage positively by acknowledging the user's implementation and appreciate their integration with Razorpay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 811,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 932
+      }
+    },
+    {
+      "post": {
+        "id": "7404866684802478082",
+        "platform": "linkedin",
+        "created_at": "5d • Edited •",
+        "full_text": "We aren't just building payment gateways; we're crafting the entire financial experience for millions of businesses. And right now, we need a Senior Product Designer specializing in UI to help us level up our entire product suite.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 3,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Nidhi Chawda",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404866684802478082/",
+        "urn": "urn:li:activity:7404866684802478082",
+        "author": "Feed post",
+        "author_title": "Nidhi Chawda",
+        "text": "We aren't just building payment gateways; we're crafting the entire financial experience for millions of businesses. And right now, we need a Senior Product Designer specializing in UI to help us level up our entire product suite.",
+        "time_posted": "5d • Edited •",
+        "likes": 0,
+        "comments": 3
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 4,
+        "summary": "A positive tweet highlighting Razorpay’s mission and announcing a hiring call for a Senior Product Designer.",
+        "key_issues": [
+          "Hiring announcement",
+          "Product design",
+          "Financial experience",
+          "Positive brand positioning"
+        ],
+        "suggested_action": "Engage positively by amplifying the hiring post or resharing it through official Razorpay channels to boost employer branding."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 135,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 824,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 959
+      }
+    },
+    {
+      "post": {
+        "id": "7406958848697229312",
+        "platform": "linkedin",
+        "created_at": "Premium • 3rd+",
+        "full_text": "Creative Strategist | UGC, Paid Ads & Personal Branding for fast-growing startups.",
+        "language": "en",
+        "favorite_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Palak Bhalla",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406958848697229312/",
+        "urn": "urn:li:activity:7406958848697229312",
+        "author": "Feed post",
+        "author_title": "Palak Bhalla",
+        "text": "Creative Strategist | UGC, Paid Ads & Personal Branding for fast-growing startups.",
+        "time_posted": "Premium • 3rd+",
+        "likes": 5,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a self-promotional bio or advertisement unrelated to Razorpay; it does not mention Razorpay or any payment-related topic.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Promotional tweet describing a creative strategist’s services, not related to Razorpay.",
+        "key_issues": [],
+        "suggested_action": "No action needed; ignore as unrelated spam or promotional content."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 801,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 931
+      }
+    },
+    {
+      "post": {
+        "id": "7406355955036348417",
+        "platform": "linkedin",
+        "created_at": "1d • Edited •",
+        "full_text": "The Engineering Challenge: You can't just trust any POST request hitting your server( this endpoint usually doesn't perform any authentication middleware check). If an attacker guesses your endpoint, they could fake a premium subscription event.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Samriddh Kumar Johari",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/updatex/urn:li:activity:7406355955036348417/",
+        "urn": "urn:li:activity:7406355955036348417",
+        "author": "Feed post",
+        "author_title": "Samriddh Kumar Johari",
+        "text": "The Engineering Challenge: You can't just trust any POST request hitting your server( this endpoint usually doesn't perform any authentication middleware check). If an attacker guesses your endpoint, they could fake a premium subscription event.",
+        "time_posted": "1d • Edited •",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Complaint",
+        "product": "Subscriptions",
+        "sentiment_score": 4,
+        "urgency_score": 8,
+        "impact_score": 7,
+        "summary": "User highlights a security concern with Razorpay subscription webhook endpoints lacking authentication checks.",
+        "key_issues": [
+          "Webhook security",
+          "Subscription event spoofing",
+          "Authentication middleware missing"
+        ],
+        "suggested_action": "Investigate webhook authentication implementation for subscription events and communicate best practices or fixes to prevent spoofing."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 823,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 948
+      }
+    },
+    {
+      "post": {
+        "id": "7404934770884784128",
+        "platform": "linkedin",
+        "created_at": "5 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "So I’m turning to the people who’ve actually built in public and integrated a payment gateway themselves.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 14,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Sanskar Drolia",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404934770884784128/",
+        "urn": "urn:li:activity:7404934770884784128",
+        "author": "Feed post",
+        "author_title": "Sanskar Drolia",
+        "text": "So I’m turning to the people who’ve actually built in public and integrated a payment gateway themselves.",
+        "time_posted": "5 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 14
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "General",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "The user is discussing integrating a payment gateway but not directly mentioning Razorpay or expressing sentiment toward it.",
+        "key_issues": [
+          "payment gateway integration",
+          "general discussion"
+        ],
+        "suggested_action": "No action needed; monitor for follow-up tweets that may mention Razorpay specifically."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 120,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 803,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 923
+      }
+    },
+    {
+      "post": {
+        "id": "7406033231927488512",
+        "platform": "linkedin",
+        "created_at": "2d • Edited •",
+        "full_text": "Behind that single click is a complex system involving payment intents, checkout sessions, PCI zones, tokenization, orchestrators, processor routing, callbacks, and reconciliation — all working together in milliseconds.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Anindya Sankar Dasgupta",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406033231927488512/",
+        "urn": "urn:li:activity:7406033231927488512",
+        "author": "Feed post",
+        "author_title": "Anindya Sankar Dasgupta",
+        "text": "Behind that single click is a complex system involving payment intents, checkout sessions, PCI zones, tokenization, orchestrators, processor routing, callbacks, and reconciliation — all working together in milliseconds.",
+        "time_posted": "2d • Edited •",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 8,
+        "urgency_score": 1,
+        "impact_score": 5,
+        "summary": "The tweet appreciates the complexity and efficiency of Razorpay’s payment processing system behind a single click.",
+        "key_issues": [
+          "payment orchestration",
+          "tokenization",
+          "checkout sessions",
+          "processor routing",
+          "reconciliation"
+        ],
+        "suggested_action": "Engage positively by acknowledging the appreciation and possibly share insights or a blog post about Razorpay’s payment architecture."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 139,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 822,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 961
+      }
+    },
+    {
+      "post": {
+        "id": "7406018311072735232",
+        "platform": "linkedin",
+        "created_at": "• 𝐑𝐞𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐰𝐞𝐞𝐤𝐥𝐲 𝐭𝐨 𝐢𝐦𝐩𝐫𝐨𝐯𝐞 𝐚𝐜𝐜𝐮𝐫𝐚𝐜𝐲",
+        "full_text": "This replaces spreadsheets and manual workflows with a single, reliable platform — improving accuracy, visibility, and operational control.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "JEBESHAN J",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406018311072735232/",
+        "urn": "urn:li:activity:7406018311072735232",
+        "author": "Feed post",
+        "author_title": "JEBESHAN J",
+        "text": "This replaces spreadsheets and manual workflows with a single, reliable platform — improving accuracy, visibility, and operational control.",
+        "time_posted": "• 𝐑𝐞𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐰𝐞𝐞𝐤𝐥𝐲 𝐭𝐨 𝐢𝐦𝐩𝐫𝐨𝐯𝐞 𝐚𝐜𝐜𝐮𝐫𝐚𝐜𝐲",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Razorpay X",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "User praises Razorpay X for streamlining operations and improving accuracy and control.",
+        "key_issues": [
+          "Operational efficiency",
+          "Automation",
+          "Reliability"
+        ],
+        "suggested_action": "Engage with the user by thanking them and amplifying the testimonial on social media or marketing channels."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 805,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 930
+      }
+    },
+    {
+      "post": {
+        "id": "7405331855106887680",
+        "platform": "linkedin",
+        "created_at": "4 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "I’m thrilled to announce the successful development of Green Pulse, a web platform built to promote environmental awareness and community engagement through events, donations, and collaborative action.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Sneha Bhong",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405331855106887680/",
+        "urn": "urn:li:activity:7405331855106887680",
+        "author": "Feed post",
+        "author_title": "Sneha Bhong",
+        "text": "I’m thrilled to announce the successful development of Green Pulse, a web platform built to promote environmental awareness and community engagement through events, donations, and collaborative action.",
+        "time_posted": "4 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "User announces successful development of an environmental web platform, expressing positive sentiment.",
+        "key_issues": [
+          "Positive announcement",
+          "Environmental awareness platform"
+        ],
+        "suggested_action": "No action needed; optionally engage positively if Razorpay is mentioned in future related tweets."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 115,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 815,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 930
+      }
+    },
+    {
+      "post": {
+        "id": "7406979198399143936",
+        "platform": "linkedin",
+        "created_at": "• Designing clean, reusable UI components",
+        "full_text": "This application was built with a production-first mindset, focusing on scalability, SEO, performance, and secure payment workflows.",
+        "language": "en",
+        "favorite_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Mohit Mudgil",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406979198399143936/",
+        "urn": "urn:li:activity:7406979198399143936",
+        "author": "Feed post",
+        "author_title": "Mohit Mudgil",
+        "text": "This application was built with a production-first mindset, focusing on scalability, SEO, performance, and secure payment workflows.",
+        "time_posted": "• Designing clean, reusable UI components",
+        "likes": 5,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 8,
+        "urgency_score": 1,
+        "impact_score": 3,
+        "summary": "The tweet highlights a well-built application emphasizing secure payment workflows, indirectly praising Razorpay’s reliability.",
+        "key_issues": [
+          "secure payment workflows",
+          "scalability",
+          "performance"
+        ],
+        "suggested_action": "Engage positively by acknowledging the mention and reinforcing Razorpay’s commitment to secure and scalable payment solutions."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 129,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 806,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 935
+      }
+    },
+    {
+      "post": {
+        "id": "7404780072630489089",
+        "platform": "linkedin",
+        "created_at": "6 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "👉 Building payment workflows is all about reliability, accuracy, and user trust — and I enjoyed shaping that experience on our platform.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Karishma Mohammed",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404780072630489089/",
+        "urn": "urn:li:activity:7404780072630489089",
+        "author": "Feed post",
+        "author_title": "Karishma Mohammed",
+        "text": "👉 Building payment workflows is all about reliability, accuracy, and user trust — and I enjoyed shaping that experience on our platform.",
+        "time_posted": "6 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 6,
+        "summary": "User expresses positive sentiment about building reliable and trustworthy payment workflows on Razorpay.",
+        "key_issues": [
+          "Reliability",
+          "Accuracy",
+          "User trust",
+          "Payment workflow experience"
+        ],
+        "suggested_action": "Engage with the user by thanking them for their contribution and possibly amplify the tweet as a positive testimonial."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 129,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 809,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 938
+      }
+    },
+    {
+      "post": {
+        "id": "7406960112407519232",
+        "platform": "linkedin",
+        "created_at": "3h • Edited •",
+        "full_text": "This project features a dynamic real-time calendar, intelligent slot blocking & conflict prevention, secure Razorpay payment integration, and a complete admin approval workflow. It supports multi-role authentication (Admin & User) with separate dashboards, automated email/SMS notifications, and insightful analytics powered by MongoDB aggregations.",
+        "language": "en",
+        "favorite_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Harsh raj Shrivastav",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406960112407519232/",
+        "urn": "urn:li:activity:7406960112407519232",
+        "author": "Feed post",
+        "author_title": "Harsh raj Shrivastav",
+        "text": "This project features a dynamic real-time calendar, intelligent slot blocking & conflict prevention, secure Razorpay payment integration, and a complete admin approval workflow. It supports multi-role authentication (Admin & User) with separate dashboards, automated email/SMS notifications, and insightful analytics powered by MongoDB aggregations.",
+        "time_posted": "3h • Edited •",
+        "likes": 4,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 4,
+        "summary": "A user describes a project that includes secure Razorpay payment integration as part of its features.",
+        "key_issues": [
+          "Razorpay integration",
+          "secure payment",
+          "project showcase"
+        ],
+        "suggested_action": "Engage positively by appreciating the integration and possibly retweet or comment to highlight Razorpay’s developer-friendly APIs."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 131,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 842,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 973
+      }
+    },
+    {
+      "post": {
+        "id": "7403669977834217472",
+        "platform": "linkedin",
+        "created_at": "1 week ago • Visible to anyone on or off LinkedIn",
+        "full_text": "For global customers, this means a seamless, trusted way to pay. For our brands and businesses, it means more completed orders and fewer drop-offs. Small changes in the product can unlock outsized impact for millions of customers. And there’s a lot more coming!",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 6,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shashank Kumar",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7403669977834217472/",
+        "urn": "urn:li:activity:7403669977834217472",
+        "author": "Feed post",
+        "author_title": "Shashank Kumar",
+        "text": "For global customers, this means a seamless, trusted way to pay. For our brands and businesses, it means more completed orders and fewer drop-offs. Small changes in the product can unlock outsized impact for millions of customers. And there’s a lot more coming!",
+        "time_posted": "1 week ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 6
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Magic Checkout",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "The tweet praises Razorpay’s product improvements that enhance payment experience and conversion rates.",
+        "key_issues": [
+          "positive feedback",
+          "product improvement",
+          "customer experience",
+          "conversion optimization"
+        ],
+        "suggested_action": "Engage with the tweet by thanking the user and amplifying it as a success story for Magic Checkout."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 966
+      }
+    },
+    {
+      "post": {
+        "id": "7405244503302987776",
+        "platform": "linkedin",
+        "created_at": "• 📧 Automated email reports",
+        "full_text": "B.Tech CSE Student at Odisha University of Technology and Research | Full Stack Developer (MERN) | Java | DSA | AWS | Docker",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Subhasis Rout",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405244503302987776/",
+        "urn": "urn:li:activity:7405244503302987776",
+        "author": "Feed post",
+        "author_title": "Subhasis Rout",
+        "text": "B.Tech CSE Student at Odisha University of Technology and Research | Full Stack Developer (MERN) | Java | DSA | AWS | Docker",
+        "time_posted": "• 📧 Automated email reports",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a personal bio or self-promotion with no mention of Razorpay or any relevant content; likely unrelated to Razorpay.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "A personal profile description unrelated to Razorpay.",
+        "key_issues": [],
+        "suggested_action": "No action needed; ignore as it is not related to Razorpay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 813,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 938
+      }
+    },
+    {
+      "post": {
+        "id": "7405213796367134720",
+        "platform": "linkedin",
+        "created_at": "4 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "When I joined as PM2 with the RazorpayX Payouts pod (and later contributed to Collections as well), I was making a big leap from B2C product management into B2B. A space I knew little about but was eager to master.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 3,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Sarthak Jain",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405213796367134720/",
+        "urn": "urn:li:activity:7405213796367134720",
+        "author": "Feed post",
+        "author_title": "Sarthak Jain",
+        "text": "When I joined as PM2 with the RazorpayX Payouts pod (and later contributed to Collections as well), I was making a big leap from B2C product management into B2B. A space I knew little about but was eager to master.",
+        "time_posted": "4 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 3
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Razorpay X",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 6,
+        "summary": "User shares a positive career experience transitioning into B2B product management at RazorpayX.",
+        "key_issues": [
+          "Career experience",
+          "RazorpayX Payouts",
+          "Collections team"
+        ],
+        "suggested_action": "Engage positively by acknowledging the user's contribution and possibly amplify the tweet as an employee story or culture highlight."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 135,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 971
+      }
+    },
+    {
+      "post": {
+        "id": "7406708248386424832",
+        "platform": "linkedin",
+        "created_at": "",
+        "full_text": "Which offers convert best? What's the average customer lifetime value? Which tier has highest retention? Pull it from Razorpay dashboard instead of manual calculations.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Sanjana Iyer",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406708248386424832/",
+        "urn": "urn:li:activity:7406708248386424832",
+        "author": "Feed post",
+        "author_title": "Sanjana Iyer",
+        "text": "Which offers convert best? What's the average customer lifetime value? Which tier has highest retention? Pull it from Razorpay dashboard instead of manual calculations.",
+        "time_posted": "",
+        "likes": 0,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Feature Request",
+        "product": "Dashboard",
+        "sentiment_score": 6,
+        "urgency_score": 5,
+        "impact_score": 7,
+        "summary": "User requests analytics features like conversion, LTV, and retention directly in Razorpay dashboard.",
+        "key_issues": [
+          "Lack of advanced analytics",
+          "Manual data calculation",
+          "Dashboard feature enhancement"
+        ],
+        "suggested_action": "Consider adding built-in analytics and reporting tools in the Razorpay dashboard to display conversion, LTV, and retention metrics."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 136,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 813,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 949
+      }
+    },
+    {
+      "post": {
+        "id": "7406710930341859328",
+        "platform": "linkedin",
+        "created_at": "",
+        "full_text": "Analytics on failure reasons: See which banks decline most, which payment methods fail, what time of day has issues. Fix patterns, not individual transactions.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Avinash Mishra",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406710930341859328/",
+        "urn": "urn:li:activity:7406710930341859328",
+        "author": "Feed post",
+        "author_title": "Avinash Mishra",
+        "text": "Analytics on failure reasons: See which banks decline most, which payment methods fail, what time of day has issues. Fix patterns, not individual transactions.",
+        "time_posted": "",
+        "likes": 0,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Feature Request",
+        "product": "Dashboard",
+        "sentiment_score": 7,
+        "urgency_score": 6,
+        "impact_score": 7,
+        "summary": "User suggests adding analytics to track and analyze payment failure patterns across banks and methods.",
+        "key_issues": [
+          "Lack of analytics on payment failure reasons",
+          "Need for pattern-based insights",
+          "Improvement in transaction monitoring"
+        ],
+        "suggested_action": "Consider adding advanced failure analytics in the Razorpay dashboard to help merchants identify and address systemic payment issues."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 137,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 951
+      }
+    },
+    {
+      "post": {
+        "id": "7400028192029261824",
+        "platform": "linkedin",
+        "created_at": "Verified • 1st",
+        "full_text": "The result: A student in Bangalore books a Thailand trip as easily as ordering on. No forex cards, no international credit cards. Just UPI.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shubham Bisht",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7400028192029261824/",
+        "urn": "urn:li:activity:7400028192029261824",
+        "author": "Feed post",
+        "author_title": "Shubham Bisht",
+        "text": "The result: A student in Bangalore books a Thailand trip as easily as ordering on. No forex cards, no international credit cards. Just UPI.",
+        "time_posted": "Verified • 1st",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "The tweet highlights how easy it is for a student to make international payments using UPI, implying Razorpay’s seamless payment experience.",
+        "key_issues": [
+          "Ease of international payments",
+          "UPI-based transactions",
+          "Positive user experience"
+        ],
+        "suggested_action": "Engage positively with the tweet by amplifying or retweeting it to showcase Razorpay’s role in enabling effortless international payments via UPI."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 149,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 813,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 962
+      }
+    },
+    {
+      "post": {
+        "id": "7406803680491966464",
+        "platform": "linkedin",
+        "created_at": "",
+        "full_text": "Aspiring Software Engineer | Tech Enthusiast | Lifelong Learner",
+        "language": "en",
+        "favorite_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Arvind Dangi",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406803680491966464/",
+        "urn": "urn:li:activity:7406803680491966464",
+        "author": "Feed post",
+        "author_title": "Arvind Dangi",
+        "text": "Aspiring Software Engineer | Tech Enthusiast | Lifelong Learner",
+        "time_posted": "",
+        "likes": 4,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a generic bio statement and does not mention Razorpay or any relevant content; likely unrelated or spam for this context.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Generic user bio with no mention of Razorpay.",
+        "key_issues": [],
+        "suggested_action": "No action needed; ignore as irrelevant or spam."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 798,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 919
+      }
+    },
+    {
+      "post": {
+        "id": "7398695516357890048",
+        "platform": "linkedin",
+        "created_at": "Influencer • 2nd",
+        "full_text": "So when I stumbled uponnew HR spoof, a full courtroom drama over a payroll doubt, I actually laughed out loud. Because if you’ve ever worked in HR, this is not a spoof, this is a documentary. But here’s the part I genuinely liked: Behind the humour is a feature that actually reduces this madness AI Payslip inside RazorpayX Payroll.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 93,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Shikha Gupta (L.I.O.N)",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7398695516357890048/",
+        "urn": "urn:li:activity:7398695516357890048",
+        "author": "Feed post",
+        "author_title": "Shikha Gupta (L.I.O.N)",
+        "text": "So when I stumbled uponnew HR spoof, a full courtroom drama over a payroll doubt, I actually laughed out loud. Because if you’ve ever worked in HR, this is not a spoof, this is a documentary. But here’s the part I genuinely liked: Behind the humour is a feature that actually reduces this madness AI Payslip inside RazorpayX Payroll.",
+        "time_posted": "Influencer • 2nd",
+        "likes": 0,
+        "comments": 93
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payroll",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 6,
+        "summary": "User praises RazorpayX Payroll’s AI Payslip feature, appreciating its usefulness behind a humorous HR-themed spoof.",
+        "key_issues": [
+          "Positive feedback",
+          "AI Payslip feature",
+          "Payroll management"
+        ],
+        "suggested_action": "Engage with the user by thanking them for the appreciation and amplify the tweet through retweets or marketing channels to highlight the AI Payslip feature."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 856,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 997
+      }
+    },
+    {
+      "post": {
+        "id": "7405961316487696384",
+        "platform": "linkedin",
+        "created_at": "2 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "B.Tech IT Student at Alliance University | Passionate About Technology & Innovation | Building Skills in Cloud, DSA & Full-Stack Development",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405961316487696384/",
+        "urn": "urn:li:activity:7405961316487696384",
+        "author": "Feed post",
+        "author_title": "",
+        "text": "B.Tech IT Student at Alliance University | Passionate About Technology & Innovation | Building Skills in Cloud, DSA & Full-Stack Development",
+        "time_posted": "2 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 4
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is a personal bio or self-promotion and does not mention Razorpay or any relevant context.",
+        "category": "Complaint",
+        "product": null,
+        "sentiment_score": 5,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "A personal bio tweet unrelated to Razorpay.",
+        "key_issues": [],
+        "suggested_action": "No action needed; tweet is irrelevant to Razorpay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 811,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 927
+      }
+    },
+    {
+      "post": {
+        "id": "7405172548839096320",
+        "platform": "linkedin",
+        "created_at": "• Render Deployment",
+        "full_text": "Today, I'm excited to share a project I've been working on — a full-featured digital marketplace where users can upload products, make purchases securely, and track sales through beautifully designed dashboards and charts.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 6,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Soham Kamble",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405172548839096320/",
+        "urn": "urn:li:activity:7405172548839096320",
+        "author": "Feed post",
+        "author_title": "Soham Kamble",
+        "text": "Today, I'm excited to share a project I've been working on — a full-featured digital marketplace where users can upload products, make purchases securely, and track sales through beautifully designed dashboards and charts.",
+        "time_posted": "• Render Deployment",
+        "likes": 0,
+        "comments": 6
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "User shares excitement about launching a digital marketplace project with secure payments and dashboards.",
+        "key_issues": [
+          "new project announcement",
+          "secure payments",
+          "sales tracking dashboards"
+        ],
+        "suggested_action": "Engage positively by congratulating the user and exploring if Razorpay can be integrated into their marketplace for payments."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 126,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 823,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 949
+      }
+    },
+    {
+      "post": {
+        "id": "7405507405054218240",
+        "platform": "linkedin",
+        "created_at": "4d • Edited •",
+        "full_text": "This push introduces a complete Payment Processing System along with Seller Reporting & Transaction Tracking, making the platform far more production-ready.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Deep Chand",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405507405054218240/",
+        "urn": "urn:li:activity:7405507405054218240",
+        "author": "Feed post",
+        "author_title": "Deep Chand",
+        "text": "This push introduces a complete Payment Processing System along with Seller Reporting & Transaction Tracking, making the platform far more production-ready.",
+        "time_posted": "4d • Edited •",
+        "likes": 0,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 8,
+        "urgency_score": 2,
+        "impact_score": 5,
+        "summary": "User praises the introduction of a comprehensive payment processing system with reporting and tracking features.",
+        "key_issues": [
+          "payment processing system",
+          "seller reporting",
+          "transaction tracking"
+        ],
+        "suggested_action": "Engage positively by acknowledging the improvement and highlighting Razorpay’s capabilities in payment processing."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 123,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 807,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 930
+      }
+    },
+    {
+      "post": {
+        "id": "7405065932374540288",
+        "platform": "linkedin",
+        "created_at": "5 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "Razorpay Curlec empowers your business to handle the 12.12 festive peaks effortlessly. With industry-leading success rates of over 90%, we ensure that checking out is the easiest part of your customer's journey today.",
+        "language": "en",
+        "favorite_count": 7,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Razorpay Curlec",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405065932374540288/",
+        "urn": "urn:li:activity:7405065932374540288",
+        "author": "Feed post",
+        "author_title": "Razorpay Curlec",
+        "text": "Razorpay Curlec empowers your business to handle the 12.12 festive peaks effortlessly. With industry-leading success rates of over 90%, we ensure that checking out is the easiest part of your customer's journey today.",
+        "time_posted": "5 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 7,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "Promotional tweet highlighting Razorpay Curlec’s high success rates and smooth checkout experience during festive peaks.",
+        "key_issues": [
+          "High success rate",
+          "Smooth checkout",
+          "Festive transaction handling"
+        ],
+        "suggested_action": "Engage with the tweet by amplifying it through official Razorpay channels or thanking the user for positive feedback."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 134,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 828,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 962
+      }
+    },
+    {
+      "post": {
+        "id": "7405101618708332544",
+        "platform": "linkedin",
+        "created_at": "• Never build directly on the main branch",
+        "full_text": "I followed his tutorials as a reference while building this project — they helped me understand the concepts clearly. I added my own features and custom logic on top of it, and his guidance made the process smoother.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 3,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Rutik Tavanoji",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405101618708332544/",
+        "urn": "urn:li:activity:7405101618708332544",
+        "author": "Feed post",
+        "author_title": "Rutik Tavanoji",
+        "text": "I followed his tutorials as a reference while building this project — they helped me understand the concepts clearly. I added my own features and custom logic on top of it, and his guidance made the process smoother.",
+        "time_posted": "• Never build directly on the main branch",
+        "likes": 0,
+        "comments": 3
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 8,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "User appreciates a tutorial that helped them build a project smoothly.",
+        "key_issues": [
+          "Tutorial reference",
+          "Learning experience",
+          "Project development"
+        ],
+        "suggested_action": "No action needed; acknowledge the positive sentiment if Razorpay tutorials were referenced."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 114,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 824,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 938
+      }
+    },
+    {
+      "post": {
+        "id": "7405641215792193536",
+        "platform": "linkedin",
+        "created_at": "• Google OAuth login",
+        "full_text": "I’m currently working on Auralicious, a draft full-stack MERN project that blends AI-driven food recommendations, smooth UX, and secure payments into one high-performance web platform.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Prathamesh Jaiswar",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405641215792193536/",
+        "urn": "urn:li:activity:7405641215792193536",
+        "author": "Feed post",
+        "author_title": "Prathamesh Jaiswar",
+        "text": "I’m currently working on Auralicious, a draft full-stack MERN project that blends AI-driven food recommendations, smooth UX, and secure payments into one high-performance web platform.",
+        "time_posted": "• Google OAuth login",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "General",
+        "product": null,
+        "sentiment_score": 7,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "User describes their MERN project integrating AI and secure payments, without directly mentioning Razorpay.",
+        "key_issues": [
+          "Project description",
+          "Secure payments",
+          "AI-driven recommendations"
+        ],
+        "suggested_action": "No action needed; monitor for future mentions if Razorpay is integrated into the project."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 123,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 819,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 942
+      }
+    },
+    {
+      "post": {
+        "id": "7404745527227056129",
+        "platform": "linkedin",
+        "created_at": "6 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "Razorpay Singapore Enables Merchants to Steer Users to Cheaper Payment Methods",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Liquidity Lighthouse",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404745527227056129/",
+        "urn": "urn:li:activity:7404745527227056129",
+        "author": "Feed post",
+        "author_title": "Liquidity Lighthouse",
+        "text": "Razorpay Singapore Enables Merchants to Steer Users to Cheaper Payment Methods",
+        "time_posted": "6 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 8,
+        "urgency_score": 2,
+        "impact_score": 6,
+        "summary": "Tweet highlights Razorpay Singapore's new feature helping merchants guide users to cost-effective payment options.",
+        "key_issues": [
+          "New feature launch",
+          "Cheaper payment methods",
+          "Merchant benefits"
+        ],
+        "suggested_action": "Engage with the tweet to amplify positive coverage and share more details about the feature."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 127,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 801,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 928
+      }
+    },
+    {
+      "post": {
+        "id": "7405494245068828672",
+        "platform": "linkedin",
+        "created_at": "4d • Edited •",
+        "full_text": "#LunchWithBS | Razorpay cofounder Harshil Mathur takes Ajinkya K. & shivani shinde through the payment aggregator's journey, its challenges, his vision for it, and where his optimism comes from.",
+        "language": "en",
+        "favorite_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Business Standard",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [
+          "LunchWithBS"
+        ],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405494245068828672/",
+        "urn": "urn:li:activity:7405494245068828672",
+        "author": "Feed post",
+        "author_title": "Business Standard",
+        "text": "#LunchWithBS | Razorpay cofounder Harshil Mathur takes Ajinkya K. & shivani shinde through the payment aggregator's journey, its challenges, his vision for it, and where his optimism comes from.",
+        "time_posted": "4d • Edited •",
+        "likes": 2,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "General",
+        "sentiment_score": 8,
+        "urgency_score": 1,
+        "impact_score": 6,
+        "summary": "Tweet highlights Razorpay cofounder Harshil Mathur discussing the company’s journey and vision in a positive context.",
+        "key_issues": [
+          "Company journey",
+          "Leadership vision",
+          "Optimism about Razorpay"
+        ],
+        "suggested_action": "Engage positively by amplifying or retweeting the post to showcase Razorpay’s leadership and brand story."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 137,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 832,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 969
+      }
+    },
+    {
+      "post": {
+        "id": "7404903983980408832",
+        "platform": "linkedin",
+        "created_at": "5 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "This project was developed for a premium fragrance brand and is now live in real production, handling daily customers, orders, payments, and complete e-commerce operations.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Mohak ANAND",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7404903983980408832/",
+        "urn": "urn:li:activity:7404903983980408832",
+        "author": "Feed post",
+        "author_title": "Mohak ANAND",
+        "text": "This project was developed for a premium fragrance brand and is now live in real production, handling daily customers, orders, payments, and complete e-commerce operations.",
+        "time_posted": "5 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 2
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Payment Gateway",
+        "sentiment_score": 9,
+        "urgency_score": 1,
+        "impact_score": 6,
+        "summary": "User shares a positive update about a live e-commerce project successfully handling payments and operations.",
+        "key_issues": [
+          "Successful project launch",
+          "Payments functioning smoothly",
+          "E-commerce operations live"
+        ],
+        "suggested_action": "Engage positively by congratulating the user and amplifying the success story as a case study or testimonial."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 131,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 945
+      }
+    },
+    {
+      "post": {
+        "id": "7405464011724582912",
+        "platform": "linkedin",
+        "created_at": "4 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "With Razorpay UPI Autopay, ET Money fixed the invisible but critical part of investing: making sure every month, without exception, investors can conveniently invest.",
+        "language": "en",
+        "favorite_count": 0,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405464011724582912/",
+        "urn": "urn:li:activity:7405464011724582912",
+        "author": "Feed post",
+        "author_title": "",
+        "text": "With Razorpay UPI Autopay, ET Money fixed the invisible but critical part of investing: making sure every month, without exception, investors can conveniently invest.",
+        "time_posted": "4 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 0,
+        "comments": 1
+      },
+      "classification": {
+        "is_spam": false,
+        "spam_reason": null,
+        "category": "Praise",
+        "product": "Subscriptions",
+        "sentiment_score": 9,
+        "urgency_score": 2,
+        "impact_score": 7,
+        "summary": "Positive feedback highlighting Razorpay UPI Autopay’s role in enabling seamless recurring investments for ET Money users.",
+        "key_issues": [
+          "UPI Autopay",
+          "Recurring investments",
+          "Convenience"
+        ],
+        "suggested_action": "Amplify this testimonial through social media and case studies to showcase successful use of Razorpay Subscriptions with UPI Autopay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 139,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 956
+      }
+    },
+    {
+      "post": {
+        "id": "7405056284317671424",
+        "platform": "linkedin",
+        "created_at": "5 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "You deserve tools that match your pace. This is where a true expert in payments system becomes your secret weapon. Think of them as your navigator, cutting through the complex payment technology to find the perfect fit for your business rhythm. They turn transactions from a headache into a strategic asset, unlocking hidden horsepower.",
+        "language": "en",
+        "favorite_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405056284317671424/",
+        "urn": "urn:li:activity:7405056284317671424",
+        "author": "Feed post",
+        "author_title": "",
+        "text": "You deserve tools that match your pace. This is where a true expert in payments system becomes your secret weapon. Think of them as your navigator, cutting through the complex payment technology to find the perfect fit for your business rhythm. They turn transactions from a headache into a strategic asset, unlocking hidden horsepower.",
+        "time_posted": "5 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 2,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet is promotional and generic, likely part of a marketing or motivational campaign without any direct mention or engagement with Razorpay.",
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 7,
+        "urgency_score": 1,
+        "impact_score": 2,
+        "summary": "Generic promotional message about payment system expertise and business efficiency.",
+        "key_issues": [
+          "Generic marketing content",
+          "No direct mention of Razorpay"
+        ],
+        "suggested_action": "No action needed; ignore as unrelated promotional content."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 133,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 843,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 976
+      }
+    },
+    {
+      "post": {
+        "id": "7405195043076182016",
+        "platform": "linkedin",
+        "created_at": "5 days ago • Visible to anyone on or off LinkedIn",
+        "full_text": "We know what goes into every shift. The long hours. The rush. The endless questions. Through it all, you stay patient, present, and professional.",
+        "language": "en",
+        "favorite_count": 12,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "view_count": 0,
+        "user": {
+          "id": null,
+          "name": "Feed post",
+          "screen_name": "feed_post",
+          "description": "Razorpay POS",
+          "followers_count": 0,
+          "following_count": 0,
+          "is_verified": false,
+          "profile_image_url": null
+        },
+        "is_reply": false,
+        "in_reply_to_post_id": null,
+        "in_reply_to_user": null,
+        "is_quote": false,
+        "hashtags": [],
+        "mentions": [],
+        "urls": [],
+        "media": [],
+        "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7405195043076182016/",
+        "urn": "urn:li:activity:7405195043076182016",
+        "author": "Feed post",
+        "author_title": "Razorpay POS",
+        "text": "We know what goes into every shift. The long hours. The rush. The endless questions. Through it all, you stay patient, present, and professional.",
+        "time_posted": "5 days ago • Visible to anyone on or off LinkedIn",
+        "likes": 12,
+        "comments": 0
+      },
+      "classification": {
+        "is_spam": true,
+        "spam_reason": "The tweet contains generic motivational content with no mention of Razorpay or any payment-related context, likely part of a promotional or unrelated campaign.",
+        "category": "Praise",
+        "product": null,
+        "sentiment_score": 7,
+        "urgency_score": 1,
+        "impact_score": 1,
+        "summary": "Generic motivational message unrelated to Razorpay or its services.",
+        "key_issues": [],
+        "suggested_action": "No action needed; ignore as it is not related to Razorpay."
+      },
+      "success": true,
+      "error": null,
+      "usage": {
+        "completion_tokens": 127,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 815,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 942
+      }
+    }
+  ],
+  "summary": {
+    "total_processed": 50,
+    "successful": 50,
+    "errors": 0,
+    "processing_time_seconds": 180.78,
+    "categories": {
+      "Praise": 35,
+      "Complaint": 1,
+      "Experience Breakage": 0,
+      "Feature Request": 3,
+      "Spam": 8,
+      "Error": 0
+    },
+    "products": {
+      "General": 7,
+      "Payment Gateway": 14,
+      "Payroll": 2,
+      "Subscriptions": 2,
+      "Razorpay X": 2,
+      "Magic Checkout": 1,
+      "Dashboard": 2
+    },
+    "average_scores": {
+      "sentiment": 7.82,
+      "urgency": 1.7,
+      "impact": 4.46
+    }
+  }
+}

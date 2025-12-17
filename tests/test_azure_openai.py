@@ -7,6 +7,10 @@ import requests
 import base64
 import json
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Azure OpenAI Configuration (from environment variables)
 ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "https://siddh-m9gwv1hd-eastus2.cognitiveservices.azure.com")

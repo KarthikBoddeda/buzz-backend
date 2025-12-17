@@ -7,7 +7,7 @@ Saves results to analysis_results.json
 import json
 import time
 from datetime import datetime
-from classify_tweet import classify_tweet
+from app.analyzer.classifier import classify_tweet
 
 INPUT_FILE = "tweets.json"
 OUTPUT_FILE = "analysis_results.json"

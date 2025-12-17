@@ -8,7 +8,6 @@ AI-powered social media monitoring system for Razorpay. Scrapes tweets, fetches 
 Scraper → Conversations DB → Analyzer → Analysis DB → Web APIs
 ```
 
-
 ## Features
 
 - 🔄 **Continuous Scraping** - Scrapes Twitter every 30 seconds in 30-minute windows
@@ -57,112 +56,13 @@ pip3 install -r requirements.txt
 ### 2. Set Environment Variables
 
 ```bash
-# Twitter API (get from browser DevTools - see below for instructions)
+# Twitter API (get from browser DevTools)
 export TWITTER_AUTH_TOKEN="your_auth_token"
 export TWITTER_CSRF_TOKEN="your_csrf_token"
-export TWITTER_TRANSACTION_ID="your_transaction_id"
 
 # Azure OpenAI (for classification)
 export AZURE_OPENAI_API_KEY="your_api_key"
 ```
-
-## Updating Twitter Credentials
-
-Twitter credentials expire and need to be refreshed periodically. Here's how to get new ones:
-
-### Step 1: Get Credentials from Browser DevTools
-
-1. **Open Twitter/X** in Chrome and log in
-2. **Open DevTools** (F12 or Cmd+Option+I on Mac)
-3. **Go to Network tab**
-4. **Search for tweets** (e.g., search "Razorpay")
-5. **Find the SearchTimeline request** in the Network tab
-6. **Right-click → Copy as cURL**
-
-### Step 2: Extract Values from cURL
-
-From the cURL command, extract these values:
-
-| Value | Where to Find | Example |
-|-------|---------------|---------|
-| `auth_token` | Cookie `-b '...auth_token=XXX...'` | `318969313bcce70b4ce79ee0f2bd9894284b678c` |
-| `csrf_token` (ct0) | Cookie `-b '...ct0=XXX...'` or Header `x-csrf-token` | `59129146a000bff8...` |
-| `transaction_id` | Header `x-client-transaction-id` | `80u7uR7Sd6xL2VIi0MU4...` |
-| `GraphQL Query ID` | URL path `/graphql/XXX/SearchTimeline` | `M1jEez78PEfVfbQLvlWMvQ` |
-
-### Step 3: Update the Code
-
-**Option A: Environment Variables (Recommended)**
-
-```bash
-export TWITTER_AUTH_TOKEN="318969313bcce70b4ce79ee0f2bd9894284b678c"
-export TWITTER_CSRF_TOKEN="59129146a000bff89f83651651da577a..."
-export TWITTER_TRANSACTION_ID="80u7uR7Sd6xL2VIi0MU4hfngi3wjrwoRvoe..."
-```
-
-**Option B: Command Line Arguments**
-
-```bash
-python3 -m app.scraper.twitter \
-  --auth-token "318969313bcce70b4ce79ee0f2bd9894284b678c" \
-  --csrf-token "59129146a000bff89f83651651da577a..." \
-  --transaction-id "80u7uR7Sd6xL2VIi0MU4hfngi3wjrwoRvoe..."
-```
-
-**Option C: Edit Code Directly**
-
-Update defaults in `app/scraper/twitter.py`:
-
-```python
-# Line ~99: Update GraphQL Query ID if changed
-BASE_URL = "https://x.com/i/api/graphql/YOUR_QUERY_ID/SearchTimeline"
-
-# Line ~167: Update default transaction_id
-def __init__(
-    self,
-    auth_token: str,
-    csrf_token: str,
-    bearer_token: str = "AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs...",
-    transaction_id: str = "YOUR_NEW_TRANSACTION_ID"
-):
-```
-
-### Step 4: Reset Transaction ID State
-
-The transaction ID is incremented for each request and persisted. Reset it when using new credentials:
-
-```bash
-rm -f app/scraper/.twitter_tx_state.json
-```
-
-### Credential Locations in cURL
-
-```
-curl 'https://x.com/i/api/graphql/[QUERY_ID]/SearchTimeline?...' \
-     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-     GraphQL Query ID (may change)
-
-  -b '...auth_token=[AUTH_TOKEN];ct0=[CSRF_TOKEN]...' \
-                    ^^^^^^^^^^^     ^^^^^^^^^^
-                    auth_token      csrf_token (ct0)
-
-  -H 'x-csrf-token: [CSRF_TOKEN]' \
-                   ^^^^^^^^^^^^
-                   Same as ct0 cookie
-
-  -H 'x-client-transaction-id: [TRANSACTION_ID]' \
-                              ^^^^^^^^^^^^^^^^^
-                              Transaction ID (increment for each request)
-```
-
-### When to Update
-
-Update credentials when you see:
-- `404 Not Found` errors
-- `401 Unauthorized` errors  
-- `403 Forbidden` errors
-
-The **transaction_id** needs to be unique for each request. The code automatically increments it, but you need fresh credentials from time to time.
 
 ## Usage
 

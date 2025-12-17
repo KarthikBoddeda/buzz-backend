@@ -1,0 +1,1926 @@
+[
+  {
+    "id": "2001301587638243436",
+    "created_at": "Wed Dec 17 14:40:55 +0000 2025",
+    "full_text": "@Razorpay I know this @Airbnb PG integration is new, but you really need to figure out the failure flows. This is pretty annoying.\n\n@Airbnb_in @AirbnbHelp @RazorpayCare",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 92,
+    "user": {
+      "id": "317917073",
+      "name": "mjs",
+      "screen_name": "manasjsaloi",
+      "followers_count": 38885,
+      "following_count": 0,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1802302481025699841/IZkW-LQ5_normal.jpg",
+      "description": ""
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001297212194828382",
+    "in_reply_to_user": "manasjsaloi",
+    "is_quote": false,
+    "conversation_id": "2001297212194828382",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "Airbnb",
+        "name": "Airbnb",
+        "id": "17416571"
+      },
+      {
+        "screen_name": "Airbnb_in",
+        "name": "Airbnb India",
+        "id": "1731291000"
+      },
+      {
+        "screen_name": "AirbnbHelp",
+        "name": "Airbnb Help",
+        "id": "2688148651"
+      },
+      {
+        "screen_name": "RazorpayCare",
+        "name": "Razorpay Care",
+        "id": "807158172305625088"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/manasjsaloi/status/2001301587638243436"
+  },
+  {
+    "id": "2001291294149320948",
+    "created_at": "Wed Dec 17 14:00:01 +0000 2025",
+    "full_text": "सवाल पूछने वाली पत्रकारिता? या अफ़वाहों का शोर?\n\nडिटॉक्स की उलटी गिनती शुरू\n\n14 दिन बचे हैं\n\nस्वतंत्र मीडिया को सब्सक्राइब करें\n\nhttps://t.co/wrZXBCRehK https://t.co/L5Gxkap4MK",
+    "language": "hi",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 75,
+    "user": {
+      "id": "913695375013244928",
+      "name": "Newslaundry Hindi",
+      "screen_name": "nlhindi",
+      "followers_count": 117811,
+      "following_count": 39,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1404365915186098181/2ni6ngyi_normal.jpg",
+      "description": "ग्राउंड रिपोर्ट्स और खबरों की धुलाई हिंदी में\nसब्सक्राइब करें : https://t.co/R5ZHWktxGL\n📧 hindi@newslaundry.com"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001291294149320948",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/wrZXBCRehK",
+        "expanded_url": "https://rzp.io/rzp/ujjpB44dyrs",
+        "display_url": "rzp.io/rzp/ujjpB44dyrs"
+      }
+    ],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8WfBsJa4AIfksR.jpg",
+        "expanded_url": "https://x.com/nlhindi/status/2001291294149320948/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/nlhindi/status/2001291294149320948"
+  },
+  {
+    "id": "2001285198357663759",
+    "created_at": "Wed Dec 17 13:35:48 +0000 2025",
+    "full_text": "@RazorpayCare Why isn't this a general process, why do you need my email and number rather than just providing the process to delete it. I never consented to you storing every address I put into razorpay when I make a payment to the websites I purchase items from",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 8,
+    "user": {
+      "id": "36597411",
+      "name": "KimKaiSoo",
+      "screen_name": "kimkaiso88",
+      "followers_count": 50,
+      "following_count": 239,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/810873714589847552/OiKheDPp_normal.jpg",
+      "description": "WE ARE ONE.😍"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001214159091052636",
+    "in_reply_to_user": "RazorpayCare",
+    "is_quote": false,
+    "conversation_id": "2001155667114242523",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "RazorpayCare",
+        "name": "Razorpay Care",
+        "id": "807158172305625088"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/kimkaiso88/status/2001285198357663759"
+  },
+  {
+    "id": "2001284532591542438",
+    "created_at": "Wed Dec 17 13:33:09 +0000 2025",
+    "full_text": "@ccg33k @VikramKaile73 @justcardz @Atyanta83 @SartanparaYash @CardNiti Getting two option phone pe and razorpay gateway .",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 9,
+    "user": {
+      "id": "4848579795",
+      "name": "VIKAS GOYAL",
+      "screen_name": "goyalvikas007",
+      "followers_count": 64,
+      "following_count": 333,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/692028950571126784/EA48h1td_normal.jpg",
+      "description": "Stock Market | IPO | Passion for Credit card | Collect Points & Miles🏨✈ | Love Travel🌏🧳 | Post for stock education purpose only & not a recommendation 🙂"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001283725267763660",
+    "in_reply_to_user": "goyalvikas007",
+    "is_quote": false,
+    "conversation_id": "1999367160301511127",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ccg33k",
+        "name": "Akash",
+        "id": "1669321792333438979"
+      },
+      {
+        "screen_name": "VikramKaile73",
+        "name": "Vikram K",
+        "id": "1970839944752226304"
+      },
+      {
+        "screen_name": "justcardz",
+        "name": "Just Cards",
+        "id": "1154507305284562944"
+      },
+      {
+        "screen_name": "Atyanta83",
+        "name": "chipu",
+        "id": "2193218859"
+      },
+      {
+        "screen_name": "SartanparaYash",
+        "name": "Yash Sartanpara",
+        "id": "3101572586"
+      },
+      {
+        "screen_name": "CardNiti",
+        "name": "CardNiti",
+        "id": "1948369460278231040"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/goyalvikas007/status/2001284532591542438"
+  },
+  {
+    "id": "2001272657329914155",
+    "created_at": "Wed Dec 17 12:45:58 +0000 2025",
+    "full_text": "𝟑𝟗 𝐈𝐧𝐝𝐢𝐚𝐧 𝐬𝐭𝐚𝐫𝐭𝐮𝐩𝐬. 𝐎𝐧𝐞 𝐜𝐨𝐦𝐦𝐨𝐧 𝐭𝐡𝐫𝐞𝐚𝐝 - 𝐑𝐚𝐳𝐨𝐫𝐩𝐚𝐲\n\nFrom fintech and SaaS to AI and consumer tech, former Razorpay employees have gone on to build 39 startups across the last decade. The “Razorpay effect” highlights how startup ecosystems https://t.co/8Nr6UNJFb6",
+    "language": "en",
+    "favorite_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 111,
+    "user": {
+      "id": "605783487",
+      "name": "Inc42",
+      "screen_name": "Inc42",
+      "followers_count": 52242,
+      "following_count": 305,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1956593609014124544/qoyCHsCw_normal.jpg",
+      "description": "The Authoritative Voice On The Indian Startup Ecosystem"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001272657329914155",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XvQaQWsAIrXX6.jpg",
+        "expanded_url": "https://x.com/Inc42/status/2001272657329914155/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/Inc42/status/2001272657329914155"
+  },
+  {
+    "id": "2001267617244622870",
+    "created_at": "Wed Dec 17 12:25:56 +0000 2025",
+    "full_text": "not linkedIn but started learning how razorpay manages to send notifications..\n\n&gt; every notification is different so prioritising is important example OTP notification is of higher priority than any marketing notification, they have a SQS implemented here.\n\n&gt; we also cant let a https://t.co/3lFIzvgyRS",
+    "language": "en",
+    "favorite_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 38,
+    "user": {
+      "id": "724627763936681984",
+      "name": "Aditya 🥸",
+      "screen_name": "jn_dubey",
+      "followers_count": 503,
+      "following_count": 1171,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1997193628138233856/97eAHCvI_normal.jpg",
+      "description": "•Married Software Developer @IBM Blr \n•Part-time singer \n•Exploring how to use AI \n•Hare Krishna 🕉️"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": true,
+    "conversation_id": "2001267617244622870",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XuI60aQAEDc6Q.jpg",
+        "expanded_url": "https://x.com/jn_dubey/status/2001267617244622870/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/jn_dubey/status/2001267617244622870"
+  },
+  {
+    "id": "2001261095218991186",
+    "created_at": "Wed Dec 17 12:00:01 +0000 2025",
+    "full_text": "#NLTippani: यह सदी एक चौथाई बीत चुकी है.\n\nऔर इन 25 सालों में से 13 साल न्यूज़लॉन्ड्री आपके आसपास ही मौजूद रहा है.\n\nपूरी तरह से विज्ञापन मुक्त और जनहित के प्रति समर्पित पत्रकारिता का सफर सिर्फ आपके सहयोग से ही संभव हो पाया है.\n\nसब्सक्राइब करें: https://t.co/So1uLn4WHE https://t.co/DCYayXXK2Y",
+    "language": "hi",
+    "favorite_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 96,
+    "user": {
+      "id": "913695375013244928",
+      "name": "Newslaundry Hindi",
+      "screen_name": "nlhindi",
+      "followers_count": 117811,
+      "following_count": 39,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1404365915186098181/2ni6ngyi_normal.jpg",
+      "description": "ग्राउंड रिपोर्ट्स और खबरों की धुलाई हिंदी में\nसब्सक्राइब करें : https://t.co/R5ZHWktxGL\n📧 hindi@newslaundry.com"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001261095218991186",
+    "hashtags": [
+      "NLTippani"
+    ],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/So1uLn4WHE",
+        "expanded_url": "https://pages.razorpay.com/ujjpB44dyrs",
+        "display_url": "pages.razorpay.com/ujjpB44dyrs"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/1999009734767292420/img/vynQ5RtUgc0x6Ki9.jpg",
+        "expanded_url": "https://x.com/nlhindi/status/2001261095218991186/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/1999009734767292420/vid/avc1/1080x1920/c45a0gHkk93Fm0aT.mp4?tag=21"
+      }
+    ],
+    "tweet_url": "https://x.com/nlhindi/status/2001261095218991186"
+  },
+  {
+    "id": "2001255803723112572",
+    "created_at": "Wed Dec 17 11:38:59 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay There is huge network of credit card withdrawl services. Due to that, all payment gateways call to consumers regulary to verify authenticity of their payment system",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 16,
+    "user": {
+      "id": "1754168497028915200",
+      "name": "Vikas Sharma",
+      "screen_name": "VikasSh_03",
+      "followers_count": 51,
+      "following_count": 499,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1822975752645554176/GnXM_lSd_normal.jpg",
+      "description": ""
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/VikasSh_03/status/2001255803723112572"
+  },
+  {
+    "id": "2001247243559743709",
+    "created_at": "Wed Dec 17 11:04:58 +0000 2025",
+    "full_text": "@adityakrcodes @ajeetunc @Razorpay @dodopayments FR",
+    "language": "und",
+    "favorite_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 16,
+    "user": {
+      "id": "1864912843813875715",
+      "name": "Vansh",
+      "screen_name": "yougotvansh",
+      "followers_count": 1034,
+      "following_count": 1018,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1994596564221018112/QuAVC1PF_normal.jpg",
+      "description": "Key Accounts @DodoPayments | I come here for @onepieceanime & tech trends"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001243809230020724",
+    "in_reply_to_user": "adityakrcodes",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "adityakrcodes",
+        "name": "aditya",
+        "id": "1312785211713712128"
+      },
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "dodopayments",
+        "name": "Dodo Payments",
+        "id": "1785336123708813312"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/yougotvansh/status/2001247243559743709"
+  },
+  {
+    "id": "2001243809230020724",
+    "created_at": "Wed Dec 17 10:51:20 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay I didn’t had a good experience with Razorpay! go with @dodopayments",
+    "language": "en",
+    "favorite_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 48,
+    "user": {
+      "id": "1312785211713712128",
+      "name": "aditya",
+      "screen_name": "adityakrcodes",
+      "followers_count": 435,
+      "following_count": 266,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1963973237286768640/_3SGAvcz_normal.jpg",
+      "description": "21 | 5 yrs freelancing → now building @aetherwebmedia\nSharing dev lessons, client wins & agency struggles in public"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "dodopayments",
+        "name": "Dodo Payments",
+        "id": "1785336123708813312"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/adityakrcodes/status/2001243809230020724"
+  },
+  {
+    "id": "2001237765342773678",
+    "created_at": "Wed Dec 17 10:27:19 +0000 2025",
+    "full_text": "Created a lightweight txn webhook service in Node\n\n– Receives Razorpay-style webhooks\n– Stores txn idempotently in DB\n– Processes events async\n\nWill be adding:\n- Message queue &amp; Retry + dead-letter handling\n- Proper logging &amp; metric\n- Load handling (10k webhooks/min)\n\ncode repo👇",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 20,
+    "user": {
+      "id": "1207661324379013120",
+      "name": "Haardik (dc) 🦇🔊",
+      "screen_name": "dappcoder_",
+      "followers_count": 687,
+      "following_count": 2172,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1826221862159810560/ymoe836m_normal.jpg",
+      "description": "👨🏻‍💻 Software Engineer | 🏗️ @onchainbag | previous build: @nfaddress\n\nPassionate abt Blockchain & Backend Engineering.\n\n#Solidity, #Node, #Typescript"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001237765342773678",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/dappcoder_/status/2001237765342773678"
+  },
+  {
+    "id": "2001235521339625523",
+    "created_at": "Wed Dec 17 10:18:24 +0000 2025",
+    "full_text": "@144Maitreyi @animalsaveindia @SrBachchan Animal Save India, part of the global Animal Save Movement, primarily relies on public donations for funding, as per their website and reports. They accept contributions via Razorpay to support awareness, food giveaways, and rescues. No specific major donors or sponsors are",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 1,
+    "view_count": 12,
+    "user": {
+      "id": "1720665183188922368",
+      "name": "Grok",
+      "screen_name": "grok",
+      "followers_count": 6789382,
+      "following_count": 3,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001235203268964498",
+    "in_reply_to_user": "144Maitreyi",
+    "is_quote": false,
+    "conversation_id": "2000941346253890009",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "144Maitreyi",
+        "name": "RisingStar",
+        "id": "1694786157349851139"
+      },
+      {
+        "screen_name": "animalsaveindia",
+        "name": "Animal Save India",
+        "id": "1246032506811494401"
+      },
+      {
+        "screen_name": "SrBachchan",
+        "name": "Amitabh Bachchan",
+        "id": "145125358"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/grok/status/2001235521339625523"
+  },
+  {
+    "id": "2001235242976493665",
+    "created_at": "Wed Dec 17 10:17:17 +0000 2025",
+    "full_text": "@Razorpay https://t.co/DH4UPDa6GI",
+    "language": "qme",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 7,
+    "user": {
+      "id": "1760246981845528576",
+      "name": "Kushal Das",
+      "screen_name": "DasKushal38192",
+      "followers_count": 3,
+      "following_count": 0,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1760247089542664192/35SCp94V_normal.png",
+      "description": ""
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001235130720084230",
+    "in_reply_to_user": "DasKushal38192",
+    "is_quote": false,
+    "conversation_id": "2001235130720084230",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XQ2QJaIAADTM0.jpg",
+        "expanded_url": "https://x.com/DasKushal38192/status/2001235242976493665/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/DasKushal38192/status/2001235242976493665"
+  },
+  {
+    "id": "2001235166237462629",
+    "created_at": "Wed Dec 17 10:16:59 +0000 2025",
+    "full_text": "@Razorpay If a chargeback was actually completed, please share the ARN / chargeback reference number and settlement date. Otherwise, kindly clarify whether this is a false claim by the merchant.\n\nRequest urgent verification and resolution.",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 5,
+    "user": {
+      "id": "1760246981845528576",
+      "name": "Kushal Das",
+      "screen_name": "DasKushal38192",
+      "followers_count": 3,
+      "following_count": 0,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1760247089542664192/35SCp94V_normal.png",
+      "description": ""
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001235130720084230",
+    "in_reply_to_user": "DasKushal38192",
+    "is_quote": false,
+    "conversation_id": "2001235130720084230",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/DasKushal38192/status/2001235166237462629"
+  },
+  {
+    "id": "2001235130720084230",
+    "created_at": "Wed Dec 17 10:16:50 +0000 2025",
+    "full_text": "@Razorpay The merchant is claiming that a chargeback refund was processed on 12/12/2025, but no amount has been credited to my savings bank account till date and nothing reflects in my bank statement.",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 9,
+    "user": {
+      "id": "1760246981845528576",
+      "name": "Kushal Das",
+      "screen_name": "DasKushal38192",
+      "followers_count": 3,
+      "following_count": 0,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1760247089542664192/35SCp94V_normal.png",
+      "description": ""
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": "Razorpay",
+    "is_quote": false,
+    "conversation_id": "2001235130720084230",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/DasKushal38192/status/2001235130720084230"
+  },
+  {
+    "id": "2001229689210433795",
+    "created_at": "Wed Dec 17 09:55:13 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay What why lol",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 63,
+    "user": {
+      "id": "1920429182695223296",
+      "name": "Neeraj",
+      "screen_name": "neerxjj",
+      "followers_count": 266,
+      "following_count": 233,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1951546467757264896/Sec5vuDz_normal.jpg",
+      "description": "23 | I design on Cursor | Building @gramoai"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/neerxjj/status/2001229689210433795"
+  },
+  {
+    "id": "2001228918544888027",
+    "created_at": "Wed Dec 17 09:52:09 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay congrats, you are jainwin",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 51,
+    "user": {
+      "id": "1797582971890728961",
+      "name": "ruskaruma",
+      "screen_name": "ruskaruma08",
+      "followers_count": 334,
+      "following_count": 657,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1899638662020599809/eztzutfd_normal.jpg",
+      "description": "intensely curious and exacting  realtime builds @MailWave_io"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/ruskaruma08/status/2001228918544888027"
+  },
+  {
+    "id": "2001227435652575665",
+    "created_at": "Wed Dec 17 09:46:16 +0000 2025",
+    "full_text": "Turning messy processes into effortless approvals, this is RazorpayX in action! \n\n#RazorpayX #Razorpay #Payroll #BusinessBanking #AIPayslip https://t.co/OvWmA1J7XC",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 26,
+    "user": {
+      "id": "1517406723069603840",
+      "name": "RazorpayX",
+      "screen_name": "RazorpayX",
+      "followers_count": 7413,
+      "following_count": 3,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1517493726192357376/_uCSp2Ks_normal.jpg",
+      "description": "Because you did not startup to spend time on banking 😎  Supercharging Banking & Payroll 🚀"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001227435652575665",
+    "hashtags": [
+      "RazorpayX",
+      "Razorpay",
+      "Payroll",
+      "BusinessBanking",
+      "AIPayslip"
+    ],
+    "mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2001227251162210311/pu/img/eOsYEpvHmYvlU99J.jpg",
+        "expanded_url": "https://x.com/RazorpayX/status/2001227435652575665/video/1",
+        "video_url": "https://video.twimg.com/ext_tw_video/2001227251162210311/pu/vid/avc1/720x1280/zIKlb--uOUt5SasG.mp4?tag=19"
+      }
+    ],
+    "tweet_url": "https://x.com/RazorpayX/status/2001227435652575665"
+  },
+  {
+    "id": "2001221924114846178",
+    "created_at": "Wed Dec 17 09:24:22 +0000 2025",
+    "full_text": "@sourin_inc @Razorpay nope!",
+    "language": "en",
+    "favorite_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 125,
+    "user": {
+      "id": "1492155169198391301",
+      "name": "Ajeet ( opensox.ai )",
+      "screen_name": "ajeetunc",
+      "followers_count": 13968,
+      "following_count": 4067,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1942838099903426560/reZc01mV_normal.jpg",
+      "description": "i wake up in the middle of night and think about https://t.co/XW3vRCvV5S"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001220029975814448",
+    "in_reply_to_user": "sourin_inc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "sourin_inc",
+        "name": "Sourin",
+        "id": "1294081512468406273"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/ajeetunc/status/2001221924114846178"
+  },
+  {
+    "id": "2001220029975814448",
+    "created_at": "Wed Dec 17 09:16:50 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay Are you a RazorpayX customer too?",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 153,
+    "user": {
+      "id": "1294081512468406273",
+      "name": "Sourin",
+      "screen_name": "sourin_inc",
+      "followers_count": 150,
+      "following_count": 128,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1986956282453229568/8i7wvf2W_normal.jpg",
+      "description": "Building an Identity Provider"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/sourin_inc/status/2001220029975814448"
+  },
+  {
+    "id": "2001219038358155500",
+    "created_at": "Wed Dec 17 09:12:54 +0000 2025",
+    "full_text": "https://t.co/0pfLYLX4a8",
+    "language": "zxx",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 33,
+    "user": {
+      "id": "2609379660",
+      "name": "Razorpay",
+      "screen_name": "Razorpay",
+      "followers_count": 29935,
+      "following_count": 143,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1271385506505347074/QIc_CCEg_normal.jpg",
+      "description": "Backing India's Boldest Founders. Join the movement 👇"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001219034071884155",
+    "in_reply_to_user": "Razorpay",
+    "is_quote": false,
+    "conversation_id": "2001219030406070366",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XB_Lva4AUsFNp.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219038358155500/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XCAuVb0AAht74.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219038358155500/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XCCDYaoAAnHOa.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219038358155500/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/Razorpay/status/2001219038358155500"
+  },
+  {
+    "id": "2001219034071884155",
+    "created_at": "Wed Dec 17 09:12:53 +0000 2025",
+    "full_text": "https://t.co/oYZP5A8ONA",
+    "language": "zxx",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 37,
+    "user": {
+      "id": "2609379660",
+      "name": "Razorpay",
+      "screen_name": "Razorpay",
+      "followers_count": 29935,
+      "following_count": 143,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1271385506505347074/QIc_CCEg_normal.jpg",
+      "description": "Backing India's Boldest Founders. Join the movement 👇"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001219030406070366",
+    "in_reply_to_user": "Razorpay",
+    "is_quote": false,
+    "conversation_id": "2001219030406070366",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XB0GOaMAEAyxm.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219034071884155/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XB2F2a4AEKYwM.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219034071884155/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XB3-aa4AA1DEp.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219034071884155/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XB7gsa4AAdhQR.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219034071884155/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/Razorpay/status/2001219034071884155"
+  },
+  {
+    "id": "2001219030406070366",
+    "created_at": "Wed Dec 17 09:12:52 +0000 2025",
+    "full_text": "The ones who dared to disrupt and continue to do so every day. \nIntroducing Cohort 2 of The Next Big Thing.  \n\n@neosapien_xyz  | @birdsofparadyes  | @JuleoClub  | MadVRSolutionsPrivateLimited | Minus Zero | Gastronomix | @SuperKalam_  | SvabagLabs | @Silvertalkies https://t.co/OYeNL9b4aK",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 62,
+    "user": {
+      "id": "2609379660",
+      "name": "Razorpay",
+      "screen_name": "Razorpay",
+      "followers_count": 29935,
+      "following_count": 143,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1271385506505347074/QIc_CCEg_normal.jpg",
+      "description": "Backing India's Boldest Founders. Join the movement 👇"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001219030406070366",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "neosapien_xyz",
+        "name": "NeoSapien",
+        "id": "1872213164261355520"
+      },
+      {
+        "screen_name": "birdsofparadyes",
+        "name": "Paradyes",
+        "id": "1348221883112513537"
+      },
+      {
+        "screen_name": "JuleoClub",
+        "name": "Juleo.Club",
+        "id": "1801237470534860800"
+      },
+      {
+        "screen_name": "SuperKalam_",
+        "name": "SuperKalam",
+        "id": "1697934619838988288"
+      },
+      {
+        "screen_name": "Silvertalkies",
+        "name": "Silver Talkies",
+        "id": "23902879"
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XBjHra4AEdA_c.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219030406070366/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XBnEDa4AESRj6.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219030406070366/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XBtFYaYAA4A--.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219030406070366/photo/1"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8XBvesa4AAaXyX.jpg",
+        "expanded_url": "https://x.com/Razorpay/status/2001219030406070366/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/Razorpay/status/2001219030406070366"
+  },
+  {
+    "id": "2001210433894817932",
+    "created_at": "Wed Dec 17 08:38:42 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay damn, didn’t know that happens",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 150,
+    "user": {
+      "id": "1526434058212737025",
+      "name": "Harsh Dwivedi | Building Medial",
+      "screen_name": "harsh_dwivedi7",
+      "followers_count": 4945,
+      "following_count": 474,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1990586220968357890/Nd1iaC_R_normal.jpg",
+      "description": "Co-founder @medialapp (400K+ users) | Forbes 30u30 | Shark tank funded | ex-@TeamPratilipi | built chillguyanalyser (1M+ users)"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/harsh_dwivedi7/status/2001210433894817932"
+  },
+  {
+    "id": "2001208246489804995",
+    "created_at": "Wed Dec 17 08:30:01 +0000 2025",
+    "full_text": "Tired of the hatemongering that happens in the name of journalism?\n\nHere's what you can do.\n\nChange the news model, subscribe to Newslaundry, and pay to keep news free: https://t.co/ougX9rqWMU https://t.co/ExdigF4ZKX",
+    "language": "en",
+    "favorite_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 357,
+    "user": {
+      "id": "372677761",
+      "name": "newslaundry",
+      "screen_name": "newslaundry",
+      "followers_count": 414981,
+      "following_count": 157,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1426076603692457986/qQq3E501_normal.jpg",
+      "description": "Ad-free, independent journalism, media critique | Sabki Dhulai | Subscribe now: https://t.co/thn5KBAue4"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001208246489804995",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/ougX9rqWMU",
+        "expanded_url": "https://rzp.io/rzp/nlsm",
+        "display_url": "rzp.io/rzp/nlsm"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/media/Gpm6xwebwAAWMXo.jpg",
+        "expanded_url": "https://x.com/newslaundry/status/2001208246489804995/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/1916768373184290816/vid/avc1/1280x720/0IKHeRtUlAdjyv0o.mp4?tag=16"
+      }
+    ],
+    "tweet_url": "https://x.com/newslaundry/status/2001208246489804995"
+  },
+  {
+    "id": "2001208246179389871",
+    "created_at": "Wed Dec 17 08:30:01 +0000 2025",
+    "full_text": "Your doctor’s office. Your theatre seat. Your home. Stolen CCTV footage from these spaces fuels a massive underground economy. We’re investigating this shady business &amp; an FIR has been registered after our first story.   \n\nSupport our series → https://t.co/wK3AexT8wI https://t.co/XRwQcP0VkL",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 268,
+    "user": {
+      "id": "2227695199",
+      "name": "TheNewsMinute",
+      "screen_name": "thenewsminute",
+      "followers_count": 232826,
+      "following_count": 1057,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1408380639917711360/pl5Jepkq_normal.jpg",
+      "description": "Look south, think TNM. News, ground reports and analysis from south India.\n\nFor subscription related queries: members@thenewsminute.com"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001208246179389871",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/wK3AexT8wI",
+        "expanded_url": "https://pages.razorpay.com/hidden",
+        "display_url": "pages.razorpay.com/hidden"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/media/G8Wy3BNa4AE0nZx.jpg",
+        "expanded_url": "https://x.com/thenewsminute/status/2001208246179389871/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2001201441227333632/vid/avc1/1920x1080/GfEaNhkp7qVpNkJu.mp4?tag=21"
+      }
+    ],
+    "tweet_url": "https://x.com/thenewsminute/status/2001208246179389871"
+  },
+  {
+    "id": "2001207597697810532",
+    "created_at": "Wed Dec 17 08:27:26 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay shady behaviour",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 173,
+    "user": {
+      "id": "1391235419325407232",
+      "name": "Gurbinder",
+      "screen_name": "legionsdev",
+      "followers_count": 4705,
+      "following_count": 94,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1924504051728670720/mqyGd02m_normal.jpg",
+      "description": "• Designgineer @AxiomFM \n• @v0 Ambassador \n• Building → https://t.co/UCwMipQaWE | https://t.co/LyCCFqL7e0 \n\ni love SVGs"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/legionsdev/status/2001207597697810532"
+  },
+  {
+    "id": "2001205647254155467",
+    "created_at": "Wed Dec 17 08:19:41 +0000 2025",
+    "full_text": "me can reach out to share my issues. Additionally your social media team @RazorpayX  doesn't have a prompt and effective response time. From yesterday itself I want to connect to @Razorpay customer support team to resolve my issue but no luck.",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 11,
+    "user": {
+      "id": "3144995309",
+      "name": "Soham Sharma",
+      "screen_name": "sohm2050",
+      "followers_count": 6,
+      "following_count": 29,
+      "is_verified": false,
+      "profile_image_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+      "description": ""
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001205644628459883",
+    "in_reply_to_user": "sohm2050",
+    "is_quote": false,
+    "conversation_id": "2001205644628459883",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "RazorpayX",
+        "name": "RazorpayX",
+        "id": "1517406723069603840"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/sohm2050/status/2001205647254155467"
+  },
+  {
+    "id": "2001200900833239295",
+    "created_at": "Wed Dec 17 08:00:49 +0000 2025",
+    "full_text": "@HarshaGNetha @IRCTCofficial @AshwiniVaishnaw @Razorpay @ConfirmTKT That was actually a PG issue because irctc has generated a refund but it is stuck at razorpay gateway not allowing to enter my bank dk why. Also I tried using Paytm, phonepe gateway both of them worked but razorpay didn't. https://t.co/1R3cxcet6Q",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 22,
+    "user": {
+      "id": "1193337859870085120",
+      "name": "Aayush Kumar",
+      "screen_name": "AAYUSHK47505496",
+      "followers_count": 68,
+      "following_count": 156,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1268761574107279362/HJwD1W1m_normal.jpg",
+      "description": "The fine line between social networking and wasting your time."
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001147708200116712",
+    "in_reply_to_user": "HarshaGNetha",
+    "is_quote": false,
+    "conversation_id": "2001134546398667223",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "HarshaGNetha",
+        "name": "Harshavardhan G Netha",
+        "id": "1394754360"
+      },
+      {
+        "screen_name": "IRCTCofficial",
+        "name": "IRCTC",
+        "id": "141176075"
+      },
+      {
+        "screen_name": "AshwiniVaishnaw",
+        "name": "Ashwini Vaishnaw",
+        "id": "852579395315171328"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "ConfirmTKT",
+        "name": "ConfirmTkt",
+        "id": "2593539596"
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8WxnCIaMAA9-ZV.jpg",
+        "expanded_url": "https://x.com/AAYUSHK47505496/status/2001200900833239295/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/AAYUSHK47505496/status/2001200900833239295"
+  },
+  {
+    "id": "2001190397704593801",
+    "created_at": "Wed Dec 17 07:19:05 +0000 2025",
+    "full_text": "@ajeetunc @Razorpay That’s an insane level of compliance &amp; security measure.\n\nDidn’t know this was a thing. 👏",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 179,
+    "user": {
+      "id": "1072363387114409984",
+      "name": "Durgesh",
+      "screen_name": "durgesh_n8",
+      "followers_count": 835,
+      "following_count": 245,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1687729361540276224/NQb8Ub6I_normal.jpg",
+      "description": "Engineering @Equifax • NITK’25 • Everything Tech, Finance, Startups, Fitness & Travel."
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001178174890111481",
+    "in_reply_to_user": "ajeetunc",
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "ajeetunc",
+        "name": "Ajeet ( opensox.ai )",
+        "id": "1492155169198391301"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/durgesh_n8/status/2001190397704593801"
+  },
+  {
+    "id": "2001180693351817497",
+    "created_at": "Wed Dec 17 06:40:32 +0000 2025",
+    "full_text": "सवाल पूछने वाली पत्रकारिता? या अफ़वाहों का शोर?\n\nडिटॉक्स की उलटी गिनती शुरू\n\n14 दिन बचे हैं\n\nस्वतंत्र मीडिया को सब्सक्राइब करें\n\nhttps://t.co/wrZXBCRehK https://t.co/9ay0eXqfKr",
+    "language": "hi",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 124,
+    "user": {
+      "id": "913695375013244928",
+      "name": "Newslaundry Hindi",
+      "screen_name": "nlhindi",
+      "followers_count": 117811,
+      "following_count": 39,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1404365915186098181/2ni6ngyi_normal.jpg",
+      "description": "ग्राउंड रिपोर्ट्स और खबरों की धुलाई हिंदी में\nसब्सक्राइब करें : https://t.co/R5ZHWktxGL\n📧 hindi@newslaundry.com"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001180693351817497",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/wrZXBCRehK",
+        "expanded_url": "https://rzp.io/rzp/ujjpB44dyrs",
+        "display_url": "rzp.io/rzp/ujjpB44dyrs"
+      }
+    ],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8WfBsJa4AIfksR.jpg",
+        "expanded_url": "https://x.com/nlhindi/status/2001180693351817497/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/nlhindi/status/2001180693351817497"
+  },
+  {
+    "id": "2001178229349212347",
+    "created_at": "Wed Dec 17 06:30:44 +0000 2025",
+    "full_text": "@amanmishra00 @amanmishra00  Dear Amrendra,\n\nThe refund link has been sent from Razorpay to your registered email and mobile via SMS. Kindly fill in your bank details in the link to receive the refund within 7–10 business days. Thank you!",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 16,
+    "user": {
+      "id": "847199904",
+      "name": "Livpure India",
+      "screen_name": "Livpure_India",
+      "followers_count": 9304,
+      "following_count": 5,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1856957144584916994/Z2DKML5t_normal.jpg",
+      "description": "Livpure Private Limited is a manufacturing unit with focus on developing, researching & refining purification systems. https://t.co/xww2tqSo4k"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2000252710537621772",
+    "in_reply_to_user": "amanmishra00",
+    "is_quote": false,
+    "conversation_id": "1999716357034901824",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "amanmishra00",
+        "name": "amrendra aman",
+        "id": "234850819"
+      },
+      {
+        "screen_name": "amanmishra00",
+        "name": "amrendra aman",
+        "id": "234850819"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/Livpure_India/status/2001178229349212347"
+  },
+  {
+    "id": "2001178174890111481",
+    "created_at": "Wed Dec 17 06:30:31 +0000 2025",
+    "full_text": "so @Razorpay is calling my users to check my authenticity.\n\nturns out i'm genuine. \n\n&lt;3 https://t.co/H23VX2nuxE",
+    "language": "en",
+    "favorite_count": 67,
+    "retweet_count": 0,
+    "reply_count": 11,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 2945,
+    "user": {
+      "id": "1492155169198391301",
+      "name": "Ajeet ( opensox.ai )",
+      "screen_name": "ajeetunc",
+      "followers_count": 13968,
+      "following_count": 4067,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1942838099903426560/reZc01mV_normal.jpg",
+      "description": "i wake up in the middle of night and think about https://t.co/XW3vRCvV5S"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001178174890111481",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8WcjdXaEAAdYcV.jpg",
+        "expanded_url": "https://x.com/ajeetunc/status/2001178174890111481/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/ajeetunc/status/2001178174890111481"
+  },
+  {
+    "id": "2001165488248983941",
+    "created_at": "Wed Dec 17 05:40:06 +0000 2025",
+    "full_text": "🗓 28 December\n🕗 8 Am\n\nನೋಂದಣಿ:\nhttps://t.co/gVdl8jK70Z\n\n🚌 ಮಿತ ಶುಲ್ಕದಲ್ಲಿ ಬಸ್ ವ್ಯವಸ್ಥೆ ಹಲವಾರು ಸ್ಥಳಗಳಿಂದ ಲಭ್ಯ:\nhttps://t.co/m1jyORtSsK\n\nನಿಮ್ಮಲ್ಲಿ‌ ಪ್ರಶ್ನೆಗಳಿವೆಯೇ ?\nಆನ್ ಲೈನ್ ಪ್ರಶ್ನೋತ್ತರ ಸೆಶನ್‌ನಲ್ಲಿ ಪಾಲ\n\n🗓 *17 ಡಿಸೆಂಬರ್* | 🕢 *ಸಂಜೆ 7:30 ಗಂಟೆಗೆ*\n\n🔗 https://t.co/fcB4np0Zky https://t.co/lLjb0dvqDZ",
+    "language": "kn",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 43,
+    "user": {
+      "id": "1721348937662214144",
+      "name": "Abhishek Biradar",
+      "screen_name": "AbhishekBi22725",
+      "followers_count": 30,
+      "following_count": 235,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1721349110538858497/cElzlcGR_normal.jpg",
+      "description": ""
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001165488248983941",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/gVdl8jK70Z",
+        "expanded_url": "http://isha.co/sadhgurusatsang-blr",
+        "display_url": "isha.co/sadhgurusatsan…"
+      },
+      {
+        "url": "https://t.co/m1jyORtSsK",
+        "expanded_url": "http://isha.co/KA-SS-BUS",
+        "display_url": "isha.co/KA-SS-BUS"
+      },
+      {
+        "url": "https://t.co/fcB4np0Zky",
+        "expanded_url": "http://isha.co/SS28dec-webinar",
+        "display_url": "isha.co/SS28dec-webinar"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2001165204311433221/img/SvKKz0xgdTLMoOuv.jpg",
+        "expanded_url": "https://x.com/AbhishekBi22725/status/2001165488248983941/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2001165204311433221/vid/avc1/720x1280/0ewo270qZTbZ54GJ.mp4?tag=14"
+      }
+    ],
+    "tweet_url": "https://x.com/AbhishekBi22725/status/2001165488248983941"
+  },
+  {
+    "id": "2001156418242797975",
+    "created_at": "Wed Dec 17 05:04:04 +0000 2025",
+    "full_text": "@Razorpay @Meesho_Official @NPCI_BHIM Trust? I tried to contact your customer care team and email department but no help. My request was simple to complete the return request, which is pending since 13/12 or kindly change your policy for no return/refund after delivery for better transparency. https://t.co/cxURzFq0Ek",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 41,
+    "user": {
+      "id": "1868937067339956224",
+      "name": "Dinesh_Khatri",
+      "screen_name": "HDineshkhatri",
+      "followers_count": 11,
+      "following_count": 195,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1868937419900239872/ZfOQqaSM_normal.jpg",
+      "description": ""
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "1953044077718433999",
+    "in_reply_to_user": "Razorpay",
+    "is_quote": false,
+    "conversation_id": "1953044077718433999",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "Meesho_Official",
+        "name": "Meesho",
+        "id": "1227581636784451584"
+      },
+      {
+        "screen_name": "NPCI_BHIM",
+        "name": "BHIM",
+        "id": "814822978810580992"
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8WJKCIaYAAI2j9.jpg",
+        "expanded_url": "https://x.com/HDineshkhatri/status/2001156418242797975/photo/1"
+      }
+    ],
+    "tweet_url": "https://x.com/HDineshkhatri/status/2001156418242797975"
+  },
+  {
+    "id": "2001155667114242523",
+    "created_at": "Wed Dec 17 05:01:05 +0000 2025",
+    "full_text": "@Razorpay how do I delete saved addresses associated to my phone number/email ? \nI never signed up to save my address but its preloaded every time I checkout from razorpay",
+    "language": "en",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 6,
+    "user": {
+      "id": "36597411",
+      "name": "KimKaiSoo",
+      "screen_name": "kimkaiso88",
+      "followers_count": 50,
+      "following_count": 239,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/810873714589847552/OiKheDPp_normal.jpg",
+      "description": "WE ARE ONE.😍"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": "Razorpay",
+    "is_quote": false,
+    "conversation_id": "2001155667114242523",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      }
+    ],
+    "urls": [],
+    "media": [],
+    "tweet_url": "https://x.com/kimkaiso88/status/2001155667114242523"
+  },
+  {
+    "id": "2001152379111239763",
+    "created_at": "Wed Dec 17 04:48:01 +0000 2025",
+    "full_text": "@Razorpay @CRED_club @Shadowfox @letsblinkit @Swiggy @Paytm @_groww @zerodhaonline @Dream11 @KukuFMOfficial @PocketFM_App @Bharat_Pay https://t.co/uAC50RoZY2",
+    "language": "qme",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 164,
+    "user": {
+      "id": "1735750529714716673",
+      "name": "Aman Pal",
+      "screen_name": "_am__aman",
+      "followers_count": 14,
+      "following_count": 81,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1735750626703785984/x5ZwQpO1_normal.jpg",
+      "description": "Software Developer (Fresher) | Python | Java | React | SQL | DSA | Data Science | Strong Problem Solving | Digital & Influencer Marketing"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001152221703237677",
+    "in_reply_to_user": "_am__aman",
+    "is_quote": false,
+    "conversation_id": "2001152221703237677",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "CRED_club",
+        "name": "CRED",
+        "id": "1027264470370770945"
+      },
+      {
+        "screen_name": "Shadowfox",
+        "name": "Shadowfox",
+        "id": "10397482"
+      },
+      {
+        "screen_name": "letsblinkit",
+        "name": "Blinkit",
+        "id": "2357514276"
+      },
+      {
+        "screen_name": "Swiggy",
+        "name": "Swiggy Food",
+        "id": "2639625036"
+      },
+      {
+        "screen_name": "Paytm",
+        "name": "Paytm",
+        "id": "144792607"
+      },
+      {
+        "screen_name": "_groww",
+        "name": "Groww",
+        "id": "3571361412"
+      },
+      {
+        "screen_name": "zerodhaonline",
+        "name": "Zerodha",
+        "id": "181103420"
+      },
+      {
+        "screen_name": "Dream11",
+        "name": "Dream11",
+        "id": "22738536"
+      },
+      {
+        "screen_name": "KukuFMOfficial",
+        "name": "Kuku FM",
+        "id": "1139533775522549761"
+      },
+      {
+        "screen_name": "PocketFM_App",
+        "name": "Pocket FM",
+        "id": "1174212857875050501"
+      },
+      {
+        "screen_name": "Bharat_Pay",
+        "name": "BharatPay",
+        "id": "853874555760201728"
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/uAC50RoZY2",
+        "expanded_url": "http://booking.com",
+        "display_url": "booking.com"
+      }
+    ],
+    "media": [],
+    "tweet_url": "https://x.com/_am__aman/status/2001152379111239763"
+  },
+  {
+    "id": "2001151795339649448",
+    "created_at": "Wed Dec 17 04:45:42 +0000 2025",
+    "full_text": "We’ve Run Out of Funds to Feed Cows😭\n(45k/day - 13.5Lakh/month)\n\nPlease Help Prevent Cows going Hungry👇🙏\nhttps://t.co/qqQP2IcwOk\n\nUPI: AntyodayaGoraksha@Sbi\n\n👉QR, Paypal, Bank a/c, in reply\n\nSince 3/8/23 We Saved 594 Cows from Slaughter, see📌🧵&amp; Caring them for Life https://t.co/LoR8e3t2wk",
+    "language": "en",
+    "favorite_count": 14,
+    "retweet_count": 7,
+    "reply_count": 2,
+    "quote_count": 2,
+    "bookmark_count": 0,
+    "view_count": 454,
+    "user": {
+      "id": "1281026593050120192",
+      "name": "Cow’s Life Matters",
+      "screen_name": "SaveAbusedCows",
+      "followers_count": 16671,
+      "following_count": 0,
+      "is_verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1735735901089660929/d0XT2k-Q_normal.jpg",
+      "description": "COWS discarded after Abuse for Milk are Sold to Slaughter‼️👉We POOL & SAVE as Many COWS as Possible by Purchasing them & Care them for Life ❤️ 👉DUSK to DAWN🌅"
+    },
+    "is_reply": false,
+    "in_reply_to_tweet_id": null,
+    "in_reply_to_user": null,
+    "is_quote": false,
+    "conversation_id": "2001151795339649448",
+    "hashtags": [],
+    "mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/qqQP2IcwOk",
+        "expanded_url": "https://rzp.io/l/help-antyodaya-goraksha",
+        "display_url": "rzp.io/l/help-antyoda…"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2001150710591971329/img/n06NK0vS1i2vjUW6.jpg",
+        "expanded_url": "https://x.com/SaveAbusedCows/status/2001151795339649448/video/1",
+        "video_url": "https://video.twimg.com/amplify_video/2001150710591971329/vid/avc1/1080x1080/dvUf2MKFD-0iqLVq.mp4?tag=21"
+      }
+    ],
+    "tweet_url": "https://x.com/SaveAbusedCows/status/2001151795339649448"
+  },
+  {
+    "id": "2001151665718878391",
+    "created_at": "Wed Dec 17 04:45:11 +0000 2025",
+    "full_text": "@Flipkart @Olacabs @Razorpay @CRED_club @Shadowfox @letsblinkit @Swiggy @Paytm @_groww @zerodhaonline @Dream11 @KukuFMOfficial @PocketFM_App @Bharat_Pay https://t.co/uAC50RoZY2",
+    "language": "qme",
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "view_count": 157,
+    "user": {
+      "id": "1735750529714716673",
+      "name": "Aman Pal",
+      "screen_name": "_am__aman",
+      "followers_count": 14,
+      "following_count": 81,
+      "is_verified": false,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1735750626703785984/x5ZwQpO1_normal.jpg",
+      "description": "Software Developer (Fresher) | Python | Java | React | SQL | DSA | Data Science | Strong Problem Solving | Digital & Influencer Marketing"
+    },
+    "is_reply": true,
+    "in_reply_to_tweet_id": "2001151196447564082",
+    "in_reply_to_user": "_am__aman",
+    "is_quote": false,
+    "conversation_id": "2001151196447564082",
+    "hashtags": [],
+    "mentions": [
+      {
+        "screen_name": "Flipkart",
+        "name": "Flipkart",
+        "id": "57947109"
+      },
+      {
+        "screen_name": "Olacabs",
+        "name": "Ola",
+        "id": "233973953"
+      },
+      {
+        "screen_name": "Razorpay",
+        "name": "Razorpay",
+        "id": "2609379660"
+      },
+      {
+        "screen_name": "CRED_club",
+        "name": "CRED",
+        "id": "1027264470370770945"
+      },
+      {
+        "screen_name": "Shadowfox",
+        "name": "Shadowfox",
+        "id": "10397482"
+      },
+      {
+        "screen_name": "letsblinkit",
+        "name": "Blinkit",
+        "id": "2357514276"
+      },
+      {
+        "screen_name": "Swiggy",
+        "name": "Swiggy Food",
+        "id": "2639625036"
+      },
+      {
+        "screen_name": "Paytm",
+        "name": "Paytm",
+        "id": "144792607"
+      },
+      {
+        "screen_name": "_groww",
+        "name": "Groww",
+        "id": "3571361412"
+      },
+      {
+        "screen_name": "zerodhaonline",
+        "name": "Zerodha",
+        "id": "181103420"
+      },
+      {
+        "screen_name": "Dream11",
+        "name": "Dream11",
+        "id": "22738536"
+      },
+      {
+        "screen_name": "KukuFMOfficial",
+        "name": "Kuku FM",
+        "id": "1139533775522549761"
+      },
+      {
+        "screen_name": "PocketFM_App",
+        "name": "Pocket FM",
+        "id": "1174212857875050501"
+      },
+      {
+        "screen_name": "Bharat_Pay",
+        "name": "BharatPay",
+        "id": "853874555760201728"
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/uAC50RoZY2",
+        "expanded_url": "http://booking.com",
+        "display_url": "booking.com"
+      }
+    ],
+    "media": [],
+    "tweet_url": "https://x.com/_am__aman/status/2001151665718878391"
+  }
+]
