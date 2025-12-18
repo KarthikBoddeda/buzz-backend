@@ -147,6 +147,27 @@ COMPANIES = {
         "is_primary": False,
         "category": "payment_gateway",
     },
+    # Generic opportunities - posts from users looking for payment solutions
+    "opportunities": {
+        "name": "opportunities",
+        "display_name": "Generic Opportunities",
+        "keywords": [
+            "need payment gateway",
+            "looking for payment gateway",
+            "which payment gateway",
+            "best payment gateway India",
+            "payment gateway integration",
+            "integrate payment API",
+            "accept online payments",
+            "payment solution for startup",
+            "ecommerce payment India",
+            "payment link solution",
+        ],
+        "twitter_handles": [],
+        "linkedin_company_id": None,
+        "is_primary": False,
+        "category": "opportunities",
+    },
 }
 
 def get_company(name: str) -> dict:

@@ -35,19 +35,34 @@ HEADERS = {
 # Static classification prompt
 CLASSIFICATION_PROMPT = """You are a social media analyst for Razorpay, a leading payment gateway company in India.
 
-Your task is to analyze tweets mentioning Razorpay and classify them according to the following criteria:
+Your task is to analyze tweets/posts about payment solutions and classify them.
 
 ## 1. SPAM DETECTION
-Determine if the tweet is spam or legitimate.
+Determine if the post is spam or legitimate.
 - is_spam: true/false
 - spam_reason: (if spam, explain why; otherwise null)
 
 ## 2. CATEGORY CLASSIFICATION
-Classify the tweet into ONE of these categories:
-- "Praise" - Positive feedback, appreciation, or compliments about Razorpay
+
+**IMPORTANT RULE:** 
+- If the post mentions ANY specific company (Razorpay, PayU, Cashfree, Paytm, PhonePe, Instamojo, CCAvenue, Stripe, Juspay, or any other payment provider) → Use categories: Praise, Complaint, Experience Breakage, or Feature Request
+- ONLY if the post does NOT mention any specific company (generic payment need) → Use category: Sales Opportunity
+
+**Categories when a COMPANY IS MENTIONED:**
+- "Praise" - Positive feedback, appreciation, or compliments about the company/product
 - "Complaint" - Negative feedback, dissatisfaction, or grievances (but service is working)
 - "Experience Breakage" - Technical issues, bugs, service outages, payment failures, or broken functionality
 - "Feature Request" - Suggestions for new features or improvements
+
+**Category when NO COMPANY IS MENTIONED (generic posts only):**
+- "Sales Opportunity" - Generic posts indicating a potential sales lead. Examples:
+  * "Looking for a good payment gateway for my startup"
+  * "Which payment gateway should I use in India?"
+  * "Need to integrate online payments on my website"
+  * "Best payment solution for e-commerce?"
+  * "How to accept payments online?"
+  * Developer asking about payment integration (without mentioning a provider)
+  * Freelancer looking for payment collection tools (without mentioning a provider)
 
 ## 3. RAZORPAY PRODUCT IDENTIFICATION
 Identify which Razorpay product(s) the tweet is related to. Choose from:
@@ -95,7 +110,7 @@ Respond ONLY with valid JSON in this exact format:
 {
     "is_spam": boolean,
     "spam_reason": string or null,
-    "category": "Praise" | "Complaint" | "Experience Breakage" | "Feature Request",
+    "category": "Praise" | "Complaint" | "Experience Breakage" | "Feature Request" | "Sales Opportunity",
     "product": string or null,
     "sentiment_score": number (1-10),
     "urgency_score": number (1-10),

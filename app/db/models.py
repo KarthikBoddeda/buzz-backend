@@ -380,7 +380,7 @@ class Post(Base):
     is_spam = Column(Boolean, default=False, index=True)
     spam_reason = Column(Text, nullable=True)
     
-    # Category: Praise, Complaint, Experience Breakage, Feature Request
+    # Category: Praise, Complaint, Experience Breakage, Feature Request, Sales Opportunity
     category = Column(String(64), nullable=True, index=True)
     
     # Product mentioned (Payment Gateway, Razorpay X, etc.)
